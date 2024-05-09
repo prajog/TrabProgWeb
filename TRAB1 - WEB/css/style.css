@@ -9,5 +9,6 @@ div{
     background-color: #ffffff;
     border:solid 2px;
     margin: 5em;
+    align-items: baseline;
 
 }
