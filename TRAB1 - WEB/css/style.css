@@ -5,10 +5,36 @@ header{
     padding: 0%;
 }
 
-div{
+.doenca{
     background-color: #ffffff;
-    border:solid 2px;
+    border: solid 2px;
     margin: 5em;
+    margin-top: 0;
+    padding: 0;
     align-items: baseline;
+    border-radius: 6px;
+    border:  solid #c2bebeeb;
+    width: 20rem;
+    height: 3em;
+}
 
+button{
+    background-color: #e0f5f1;
+    color: #226258;
+    border-radius: 10px;
+    border: transparent;
+    position: relative;
+    margin: 0;
+    bottom: 100%;
+    left: 63%;
+    height: 3em;
+}
+
+#hepatite{
+    background-color: #f7f7f8;
+}
+
+#hepatite h1{
+    color: #226258;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
