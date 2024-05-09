@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus Agendamentos</title>
     <link rel="stylesheet" href="css/meusAgendamentos.css">
+    <link rel="stylesheet" href="css/cancelamento.css">
+    <script defer src="js/cancelamento.js"></script>
 </head>
 <body>
     <header>
@@ -32,7 +34,7 @@
             <!--icone-->
             <div class="linha-1">
                 <p class="dentista" id="dentista"><b>Dentista</b></p>
-                <button class="btnCancelar" id="btnCancelar">Cancelar</button>
+                <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
 
             </div>
 
@@ -41,5 +43,33 @@
             <button class="btnVerMais" id="btnVerMais"><a href="maisInfo.html">Ver mais</a></button>
         </div>
     </section>
+
+    <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+    <form class="modal-content">
+        <div class="container">
+        <h1>Cancelar Consulta</h1>
+        <p>Tem certeza que você deseja cancelar a sua consulta?</p>
+        
+        <div class="clearfix">
+            <button type="button" onclick="some(0)" class="cancelbtn">Sim</button>
+            <button type="button" onclick="some(1)" class="deletebtn">Não</button>
+        </div>
+    </div>
+    </form>
+   </div>
+
+   <div id="id02" class="modal">
+    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
+    <form class="modal-content">
+        <div class="container">
+        <h1>Consulta Cancelada</h1>
+        <p>A sua consulta foi cancela com sucesso.</p>
+        
+        <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Ok</button>
+        </div>
+    </div>
+    </form>
 </body>
 </html>
