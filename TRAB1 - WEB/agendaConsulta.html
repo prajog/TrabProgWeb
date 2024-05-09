@@ -8,8 +8,9 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="nav">
+        <div class="nav">
+
+            <ul class="navlist">
                 <li class="nav-item">
                     <a class="nav-link active" href="pagPrincipal.html">Página Principal</a>
                 </li>
@@ -23,7 +24,9 @@
                     <a class="nav-link active" href="index.html">Sair</a>
                 </li>
             </ul>
-        </nav>
+
+            <p id="logo">+SUS</p>
+        </div>
     </header>
 
     <section>
@@ -32,11 +35,11 @@
                 <label class="item" for="especialidade">Escolha uma especialidade:</label>
     
                 <select name="especialidade" id="especialidade">
-                <option value="clinicogeral">Clínico Geral</option>
-                <option value="derma">Dermatologista</option>
-                <option value="ped">Pediatria</option>
-                <option value="gine">Ginecologista</option>
-                <option value="dentista">Dentista</option>
+                    <option value="clinicogeral">Clínico Geral</option>
+                    <option value="derma">Dermatologista</option>
+                    <option value="ped">Pediatria</option>
+                    <option value="gine">Ginecologista</option>
+                    <option value="dentista">Dentista</option>
                 </select>
             </div>
             
@@ -44,12 +47,12 @@
                 <label class="item" for="unidade">Selecione uma unidade:</label>
     
                 <select name="unidade" id="unidade">
-                <option value="feurosa">Feu Rosa</option>
-                <option value="vnc">Vila Nova de Colares</option>
-                <option value="jacar">Jacaraípe</option>
-                <option value="boavista">Boa Vista</option>
-                <option value="novoh">Novo Horizonte</option>
-                <option value="serrad">Serra Dourada</option>
+                    <option value="feurosa">Feu Rosa</option>
+                    <option value="vnc">Vila Nova de Colares</option>
+                    <option value="jacar">Jacaraípe</option>
+                    <option value="boavista">Boa Vista</option>
+                    <option value="novoh">Novo Horizonte</option>
+                    <option value="serrad">Serra Dourada</option>
                 </select>
             </div>
             
@@ -57,19 +60,19 @@
                 <label class="item" for="profissional">Escolha uma especialidade:</label>
     
                 <select name="profissional" id="profissional">
-                <option value="p1">Kátia Flávia dos Santos</option>
-                <option value="p2">Ana Paula Silva</option>
-                <option value="p3">Beatriz Vitória Matins </option>
-                <option value="p4">Maria Eduarda Rodrigues</option>
-                <option value="p5">Luiza da Conceição Oliveira</option>
-                <option value="p6">Gustavo Pereira de Almeida</option>
-                <option value="p7">Leonardo Gabriel Gonçalves</option>
+                    <option value="p1">Kátia Flávia dos Santos</option>
+                    <option value="p2">Ana Paula Silva</option>
+                    <option value="p3">Beatriz Vitória Matins </option>
+                    <option value="p4">Maria Eduarda Rodrigues</option>
+                    <option value="p5">Luiza da Conceição Oliveira</option>
+                    <option value="p6">Gustavo Pereira de Almeida</option>
+                    <option value="p7">Leonardo Gabriel Gonçalves</option>
                 </select>
             </div>
     
             <div class="botoes">
-                <button id="btnvoltar"><a href="pagPrincipal.html" >Voltar</a></button>
-                <button id="btncontinuar"><a href="horarioAgenda.html">Continuar</a></button>
+                <button id="btnvoltar"><a href="javascript:history.back()">Voltar</a></button>
+                <button id="btncontinuar">Continuar</button>
             </div>
         </div>
     </section>
