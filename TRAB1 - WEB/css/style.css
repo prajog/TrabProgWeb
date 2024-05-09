@@ -1,0 +1,13 @@
+header{
+    width: 100%;
+    background-color: #f7f7f7;
+    margin:0%;
+    padding: 0%;
+}
+
+div{
+    background-color: #ffffff;
+    border:solid 2px;
+    margin: 5em;
+
+}
