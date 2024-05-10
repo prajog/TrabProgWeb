@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     width: 100%;
     background-color: #f7f7f7;
@@ -7,13 +11,13 @@ header{
 
 .doenca{
     background-color: #ffffff;
-    border: solid 2px;
+    border: none;
     margin: 5em;
     margin-top: 0;
-    padding: 0;
+    padding: 1rem;
     align-items: baseline;
     border-radius: 6px;
-    border:  solid #c2bebeeb;
+    border:  solid #c2bebeeb 1px;
     width: 20rem;
     height: 3em;
 }
@@ -22,7 +26,7 @@ button{
     background-color: #e0f5f1;
     color: #226258;
     border-radius: 10px;
-    border: transparent;
+    border: none;
     position: relative;
     margin: 0;
     bottom: 100%;
