@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendamento de Exame</title>
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/exame.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="nav">
+        <div class="nav">
+
+            <ul class="navlist">
                 <li class="nav-item">
                     <a class="nav-link active" href="pagPrincipal.html">Página Principal</a>
                 </li>
@@ -22,36 +25,42 @@
                     <a class="nav-link active" href="index.html">Sair</a>
                 </li>
             </ul>
-        </nav>
+
+            <p id="logo">+SUS</p>
+        </div>
     </header>
     <section>
-        <div class="exames">
-            <label for="exame">Escolha o exame desejado</label>
+        <div class="conteudo">
+            <div class="exames">
+                <label class="item" for="exame">Escolha o exame desejado:</label>
 
-            <select name="exame" id="exame">
-            <option value="clinicogeral">Exame de Sangue</option>
-            <option value="derma">Papa-Nicolau</option>
-            <option value="ped">Pré-Natal</option>
-            <option value="gine">Radiografia</option>
-            <option value="dentista">Mamografia</option>
-            </select>
+                <select name="exame" id="exame">
+                <option value="exmSangue">Exame de Sangue</option>
+                <option value="exmPapaNicolau">Papa-Nicolau</option>
+                <option value="exmPreNatal">Pré-Natal</option>
+                <option value="exmRadiog">Radiografia</option>
+                <option value="exmMamog">Mamografia</option>
+                </select>
+            </div>
+
+            <div class="unidades">
+                <label class="item" for="unidade">Selecione uma unidade:</label>
+
+                <select name="unidade" id="unidade">
+                <option value="feurosa">Feu Rosa</option>
+                <option value="vnc">Vila Nova de Colares</option>
+                <option value="jacar">Jacaraípe</option>
+                <option value="boavista">Boa Vista</option>
+                <option value="novoh">Novo Horizonte</option>
+                <option value="serradourada">Serra Dourada</option>
+                </select>
+            </div>
+
+            <div class="botoes">
+                <button name="btnvoltar"><a href="javascript:history.back()">Voltar</a></button>
+                <button name="btnprosseguir"><a href="horarioAgenda.html">Prosseguir</a></button>
+            </div>
         </div>
-
-        <div class="unidades">
-            <label for="unidade">Selecione uma unidade</label>
-
-            <select name="unidade" id="unidade">
-            <option value="feurosa">Feu Rosa</option>
-            <option value="vnc">Vila Nova de Colares</option>
-            <option value="jacar">Jacaraípe</option>
-            <option value="boavista">Boa Vista</option>
-            <option value="novoh">Novo Horizonte</option>
-            <option value="serrad">Serra Dourada</option>
-            </select>
-        </div>
-
-        <button name="btnvoltar"><a href="pagPrincipal.html">Voltar</a></button>
-        <button name="btnprosseguir"><a href="horarioAgenda.html">Prosseguir</a></button>
     </section>
 </body>
 </html>

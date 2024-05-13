@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horário e data</title>
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/horarioAgenda.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="nav">
+        <div class="nav">
+
+            <ul class="navlist">
                 <li class="nav-item">
                     <a class="nav-link active" href="pagPrincipal.html">Página Principal</a>
                 </li>
@@ -22,30 +25,37 @@
                     <a class="nav-link active" href="index.html">Sair</a>
                 </li>
             </ul>
-        </nav>
+
+            <p id="logo">+SUS</p>
+        </div>
     </header>
+
     <section>
-        <div>
-            <label for="dtAgenda">Escolha uma data:</label>
-            <input type="date" name="dtAgenda" id="dtAgenda">    
+        <div class="conteudo">
+            <div class="data">
+                <label class="item" for="dtAgenda">Escolha uma data:</label>
+                <input type="date" name="dtAgenda" id="dtAgenda">    
+            </div>
+    
+            <div class="chooseHora">
+                <label class="item" for="id">Escolha um horário:</label>
+                <div id="horarios">
+                    <button>08:00</button>
+                    <button>08:30</button>
+                    <button>09:00</button>
+                    <button>09:30</button>
+                    <button>10:00</button>
+                    <button>10:30</button>
+                    <button>11:00</button>
+                    <button>11:30</button>
+                    <button>12:00</button>
+                </div>
+            </div>
+            <div class="botoes">
+                <button class="btnfinais" name="btnvoltar"><a href="pagPrincipal.html">Voltar</a></button>
+                <button class="btnfinais" name="btnprosseguir"><a href="fimAgendamento.html">Finalizar agendamento</a></button>
+            </div>
         </div>
-
-        <label for="id">Escolha um horário:</label>
-
-        <div id="horarios">
-            <button>08:00</button>
-            <button>08:30</button>
-            <button>09:00</button>
-            <button>09:30</button>
-            <button>10:00</button>
-            <button>10:30</button>
-            <button>11:00</button>
-            <button>11:30</button>
-            <button>12:00</button>
-        </div>
-
-        <button name="btnvoltar"><a href="pagPrincipal.html">Voltar</a></button>
-        <button name="btnprosseguir"><a href="fimAgendamento.html">Finalizar agendamento</a></button>
     </section>
 </body>
 </html>
