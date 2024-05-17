@@ -14,7 +14,7 @@ function entrar() {
             alert("O campo 'Senha' não foi preenchido!");
             inSenha.focus();
         }else{
-            if (inID.value != "20231tiimi0332" || inSenha.value != "123456"){
+            if (inID.value != "chicoin" || inSenha.value != "eutentei"){
                 alert("Usuário ou Senha foram digitados errado!")
             }else{
                 window.location.href = "pagPrincipal.html";
