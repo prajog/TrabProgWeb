@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/styleLogin.css">
+    <script src="js/logar.js"defer></script>
+    <link rel="stylesheet" href="css/navBar.css">
 </head>
 <body>
     <header>
@@ -12,22 +14,24 @@
             <div id="nav-bcg">
             </div>
             <div id="nav-txt">
-                <h1>Faça seu login</h1>
-                <p>
-                    <input type="text" placeholder="CPF ou Cartão do SUS" id="inID">
-                </p>
-                Senha:
-                <p>
-                    <input type="password" placeholder="Digite sua senha" id="inSenha">
-                </p>
-                <input type="button" value="Entrar" id="btEntrar" class="green-button"><br>
-                <input type="checkbox">Mantenha conectado<br>
-                <a href="recpSenha.html">Recuperar Senha</a>
+                <div id="logo"></div>
+                <div id="title"><h1>Faça seu login</h1></div>
+                <div id="txtUser">CPF ou Cartão do SUS</div>
+                <div id="inUser"><input type="text" placeholder="CPF ou Cartão do SUS" id="inID"></div>
+                <div id="txtPassword">Senha</div>
+                <div id="inPassword"><input type="password" id="inSenha"></div>
+                <div id="btnEntrar"><input type="button" value="Entrar" id="btEntrar" class="green-button"><br></div>
+                <div id="linkRcpSenha"><a href="recpSenha.html">Esqueci minha senha</a></div>
+                <div id="inCheckbox"><input type="checkbox">Mantenha-me conectado<br></div>
+                <div id="linkCadastro"><a href="cadastro.html">Não possui cadastro? Cadastre-se</a></div>
+                
+                
+                
+                
                 
             </div>
         </div>
         
     </header>
-    <script src="logar.js"></script>
     </body>
 </html>

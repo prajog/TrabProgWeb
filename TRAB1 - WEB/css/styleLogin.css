@@ -17,7 +17,7 @@ body{
 }
 #nav-bcg{
     grid-area: "e";
-    background-color: black;
+    background-color: #438e82;
 }
 #nav-txt{
     grid-area: "d";
