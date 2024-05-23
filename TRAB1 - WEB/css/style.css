@@ -42,14 +42,27 @@ header{
     background-color: #ffffff;
     border: none;
     margin: 5em;
-    margin-top: 0;
+    margin-top: 5em;
     padding: 1rem;
     align-items: baseline;
     border-radius: 6px;
-    border:  solid #c2bebeeb 1px;
-    width: 20rem;
+    border:  solid #c2bebeeb 0.5px;
+    width: 15rem;
+    height: 1em;
+}
+
+.doenca button{
+    background-color: #e0f5f1;
+    color: #226258;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin: 0;
+    bottom: 185%;
+    left: 62%;
     height: 3em;
 }
+
 #voltar{
 
     position: relative;
@@ -70,20 +83,6 @@ button{
     height: 3em;
 }
 
-#hepatite{
-    background-color: #f7f7f8;
-    text-align: center;
-    border-left: 50px;
-    width: 40%;
-    left: 30%;
-    position: relative;
-}
-
-#hepatite h1{
-    color: #226258;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
 .UBS{
     background-color: #ffffff;
     border: none;
@@ -96,6 +95,7 @@ button{
     width: 20rem;
     height: 3em;
 }
+
 .UBS button{
     background-color: #e0f0f1;
     color: #226258;
