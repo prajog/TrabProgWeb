@@ -17,6 +17,13 @@ header{
     width: 20rem;
     height: 3em;
 }
+#voltar{
+
+    position: relative;
+    left: 10%;
+    background-color: black;
+
+}
 
 button{
     background-color: #e0f5f1;
@@ -32,6 +39,11 @@ button{
 
 #hepatite{
     background-color: #f7f7f8;
+    text-align: center;
+    border-left: 50px;
+    width: 40%;
+    left: 30%;
+    position: relative;
 }
 
 #hepatite h1{
