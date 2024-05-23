@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus Agendamentos</title>
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/meusAgendamentos.css">
+    <link rel="stylesheet" href="css/cancelamento.css">
+    <script defer src="js/cancelamento.js"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="nav">
+        <div class="nav">
+
+            <ul class="navlist">
                 <li class="nav-item">
                     <a class="nav-link active" href="pagPrincipal.html">Página Principal</a>
                 </li>
@@ -22,37 +27,54 @@
                     <a class="nav-link active" href="index.html">Sair</a>
                 </li>
             </ul>
-        </nav>
+
+            <p id="logo">+SUS</p>
+        </div>
     </header>
     <section>
-        <h1>Consulte ou cancele seus agendamentos</h1>
+        <h1 class>Consulte ou cancele seus agendamentos</h1>
 
         <div class="agendamentos" id="agd1">
             <!--icone-->
-            <p>Dentista</p>
-            <p>Nome do paciente: Fulano da Silva Santos</p>
-            <p>Data da consulta: dd/mm/yyyy</p>
-            <button id="btnVerMais">Ver mais</button>
-            <button id="btnCancelar">Cancelar</button>
-        </div>
+            <div class="linha-1">
+                <p class="dentista" id="dentista"><b>Dentista</b></p>
+                <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
 
-        <div class="agendamentos" id="agd1">
-            <!--icone-->
-            <p>Dentista</p>
-            <p>Nome do paciente: Fulano da Silva Santos</p>
-            <p>Data da consulta: dd/mm/yyyy</p>
-            <button id="btnVerMais">Ver mais</button>
-            <button id="btnCancelar">Cancelar</button>
-        </div>
+            </div>
 
-        <div class="agendamentos" id="agd1">
-            <!--icone-->
-            <p>Dentista</p>
-            <p>Nome do paciente: Fulano da Silva Santos</p>
-            <p>Data da consulta: dd/mm/yyyy</p>
-            <button id="btnVerMais">Ver mais</button>
-            <button id="btnCancelar">Cancelar</button>
+            <p><b>Nome do paciente:</b> Fulano da Silva Santos</p>
+            <p><b>Data da consulta:</b> dd/mm/yyyy</p>
+            <button class="btnVerMais" id="btnVerMais"><a href="maisInfo.html">Ver mais</a></button>
         </div>
     </section>
+
+    <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+    <form class="modal-content">
+        <div class="container">
+        <h1>Cancelar Consulta</h1>
+        <p>Tem certeza que você deseja cancelar a sua consulta?</p>
+        
+        <div class="centralizar">
+        <div class="clearfix">
+            <button type="button" onclick="some(0)" class="cancelbtn">Sim</button>
+            <button type="button" onclick="some(1)" class="deletebtn">Não</button>
+        </div></div>
+    </div>
+    </form>
+   </div>
+
+   <div id="id02" class="modal">
+    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
+    <form class="modal-content">
+        <div class="container">
+        <h1>Consulta Cancelada</h1>
+        <p>A sua consulta foi cancela com sucesso.</p>
+        
+        <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Ok</button>
+        </div>
+    </div>
+    </form>
 </body>
 </html>

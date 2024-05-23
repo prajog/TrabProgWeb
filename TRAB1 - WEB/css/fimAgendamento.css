@@ -1,0 +1,35 @@
+div{
+    margin-left: 0.1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    color: white;
+    margin-top: 3rem;
+    width: 8vw;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #438e82;
+}
+
+button a{
+    color: white;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo {
+    padding: 1em;
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 3em;
+    max-width: 40vw;
+}

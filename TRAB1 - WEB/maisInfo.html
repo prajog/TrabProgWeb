@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalhes</title>
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/verMais.css">
+    <link rel="stylesheet" href="css/cancelamento.css">
+    <script src="js/cancelamento.js"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="nav">
+        <div class="nav">
+
+            <ul class="navlist">
                 <li class="nav-item">
                     <a class="nav-link active" href="pagPrincipal.html">Página Principal</a>
                 </li>
@@ -22,50 +27,76 @@
                     <a class="nav-link active" href="index.html">Sair</a>
                 </li>
             </ul>
-        </nav>
+
+            <p id="logo">+SUS</p>
+        </div>
     </header>
     <section>
-        <h1>DENTISTA</h1> <!--Especialidade-->
-        <h2>Consulta</h2><!--Tipo do agendamento-->
+        <h1 class="h1" id="h1">DENTISTA</h1> <!--Especialidade-->
+        <h2 class="h2" id="h2">Consulta</h2><!--Tipo do agendamento-->
 
         <div class="pessoas">
             <div id="paciente">
-                <p>Paciente:</p> 
-                <p>Fulano da Silva Santos</p>
+                <p><b>Paciente: Fulano da Silva Santo</b></p> 
             </div>
 
             <div id="profissional">
-                <p>Profissional:</p>
-                <p>Luiza da Conceição Oliveira</p>
+                <p><b>Profissional:</b> Luiza da Conceição Oliveira</p>
             </div>
         </div>
         
         <div class="dtHora">
             <div id="data">
-                <p>Data da consulta:</p>
-                <p>dd/mm/yyyy</p>
+                <p><b>Data da consulta:</b> dd/mm/yyyy</p>
             </div>
             <div id="horario">
-                <p>Horário:</p>
-                <p>08:00</p>
+                <p><b>Horário:</b> 08:00</p>
             </div>
         </div>
         
         <div class="undInfo">
             <div id="und">
-                <p>Unidade:</p>
-                <p>UBS Feu Rosa</p>
+                <p><b>Unidade:</b> UBS Feu Rosa</p>
             </div>
             
             <div id="sala">
-                <p>Sala de atendimento:</p>
-                <p>14A</p>
+                <p><b>Sala de atendimento:</b> 14A</p>
             </div>
         </div>
 
-        <button><a href="meusAgendamentos.html">Voltar</a></button>
-        <button>Cancelar</button>
+        <button class="btnVoltar" id="btnVoltar"><a href="meusAgendamentos.html">Voltar</a></button>
+        <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
         
     </section>
+
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+        <form class="modal-content">
+            <div class="container">
+            <h1>Cancelar Consulta</h1>
+            <p>Tem certeza que você deseja cancelar a sua consulta?</p>
+            
+            <div class="centralizar">
+            <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Sim</button>
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="deletebtn">Não</button>
+            </div></div>
+        </div>
+        </form>
+    </div>
+
+    <div id="id02" class="modal">
+        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
+        <form class="modal-content">
+            <div class="container">
+            <h1>Consulta Cancelada</h1>
+            <p>A sua consulta foi cancela com sucesso.</p>
+            
+            <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Ok</button>
+            </div>
+        </div>
+        </form>
+    </div>
 </body>
 </html>

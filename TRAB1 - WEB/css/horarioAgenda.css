@@ -1,0 +1,60 @@
+div{
+    margin-left: 0.1rem;
+}
+
+.chooseHora, .data {
+    display: inline;
+
+}
+
+.item {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+button {
+    color: white;
+    width: 4vw;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #438e82;
+}
+
+#horarios{
+    margin-top: 1rem;
+}
+
+.btnfinais {
+    margin-top: 3rem;
+}
+
+button a{
+    color: white;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo {
+    padding: 1em;
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 3em;
+    max-width: 60vw;
+}
+
+#dtAgenda {
+    border: slategray solid 1px;
+    border-radius: 5px;
+    width: 25%;
+    height: 5vh;
+    background-color: #e0f5f1;
+}
