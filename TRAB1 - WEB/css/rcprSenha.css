@@ -33,7 +33,7 @@
     font-size: 7rem;
     font-weight: bolder;
     color: #438e82;
-    margin-bottom: 12px;
+    margin-bottom: 0.2em;
 }
 
 .green-button {
@@ -46,7 +46,7 @@
     cursor: pointer;
     width: 100px;
     margin-right: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 0.5em;
 }
   
 .green-button:hover {
@@ -63,5 +63,23 @@
 }
 
 .navtxt-text {
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
+}
+
+#linkLogin {
+    margin-top: 1.5em;
+}
+
+.navtxt-title {
+    margin-bottom: 0.9em;
+}
+#btnRcp {
+    margin-top: 1em;
+}
+
+a {
+    color:#000000
+}
+a:hover {
+    color: #438e82;
 }
