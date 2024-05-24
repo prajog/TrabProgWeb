@@ -1,11 +1,21 @@
-div{
-    margin-left: 0.1rem;
+.agendamento {
+    display: flex;
 }
 
-.chooseHora, .data {
-    display: inline;
-
+.escolheHora > div {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.escolheHora > div > div{
+    margin: 0.2em;
+    color: white;
+    background-color: #438e82;
+    padding: 0.4em;
+    border-radius: 5px;
+}
+
+
 
 .item {
     margin-top: 0.4rem;
@@ -18,8 +28,7 @@ div{
 
 button {
     color: white;
-    width: 4vw;
-    height: 4vh;
+    padding: 1em;
     border: none;
     border-radius: 5px;
     background-color: #438e82;
@@ -33,13 +42,15 @@ button {
     margin-top: 3rem;
 }
 
-button a{
+div a{
     color: white;
+    
 }
 
 .botoes {
     display: flex;
     justify-content: space-between;
+
 }
 
 .conteudo {
