@@ -30,7 +30,7 @@
 }
 
 #txt-a {
-    margin-left: 7.9em;
+    margin-left: 7.7em;
     margin-right: 5em;
 }
 
@@ -41,4 +41,8 @@
 
 #botoes {
     display: inline;
+}
+
+#link {
+    padding-left: 6em;
 }
