@@ -63,9 +63,9 @@ body{
     margin-right: 20px;
 }
   
-.green-button:hover {
-    background-color: #3a867a;
-}
+    .green-button:hover {
+        background-color: #3a867a;
+    }
 
 .circle {
     border: 1px solid !important;
