@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/styleCadastro.css">
 </head>
 <body>
-    
+    <div id="title">
+        <p id="logo">+SUS</p>
+        <h1>Faça o seu cadastro</h1>
+    </div>
+    <div id="container">
+        <div id="nav-l">
+            <span>Nome *</span><span id="txt-a">Sobrenome *</span>
+            <p>
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Sobrenome">
+            </p>
+            <span>CPF *</span>
+            <p><input type="text" placeholder="XXX.XXX.XXX-XX"></p>
+            <span>Cartão do SUS *</span>
+            <p><input type="text" placeholder="XXX-XXXX-XXXX-XXXX"></p>
+            <span>Telefone *</span>
+            <p><input type="text" placeholder="(XX) X XXXX-XXXX"></p>
+        </div>
+        <div id="nav-r">
+            <span>E-mail *</span>
+            <p><input type="email" placeholder="E-mail"></p>
+            <span>Confirmar e-mail *</span>
+            <p><input type="email" placeholder="E-mail"></p>
+            <span>Senha *</span>
+            <p><input type="password"></p>
+            <span>Confirmar senha *</span>
+            <p><input type="password"></p>
+            <div id="botoes">
+                <button type="submit" id="btn-cadastrar">Cadastrar</button>
+                <span>Já possui cadastro?</span>
+                <p><a href="index.html" id="link">Faça o login</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

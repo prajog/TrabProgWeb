@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 'a a' 'l r';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+#title{
+    text-align: center;
+    grid-area: a;
+}
+#logo{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: #438e82;
+}
+
+#nav-l{
+    grid-area: l;
+    margin-left: 55%;
+
+}
+
+#txt-a {
+    margin-left: 7.9em;
+    margin-right: 5em;
+}
+
+#nav-r{
+    grid-area: r;
+    margin-left: 7%;
+}
+
+#botoes {
+    display: inline;
+}
