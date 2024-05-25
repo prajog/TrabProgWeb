@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "l r";
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.circle {
+    border: none;
+    border-radius: 0.5em;
+    width: 15em;
+    font-size: 1.4em;
+    padding: 0.5em 0.5em;
+    margin: 3em;
+    background: #e0f5f1;
+}
+
+button:hover {
+    background: #d6ede9;
+    cursor: pointer;
+}
+
+.nav-l {
+    grid-area: l;
+}
+.nav-r {
+    grid-area: r;
+}
