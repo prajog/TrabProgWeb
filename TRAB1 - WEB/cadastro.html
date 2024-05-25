@@ -13,31 +13,38 @@
     </div>
     <div id="container">
         <div id="nav-l">
-            <span>Nome *</span><span id="txt-a">Sobrenome *</span>
-            <p>
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="Sobrenome">
-            </p>
+            <div id="l-row1">
+                <div id="nome">
+                    <span>Nome *
+                    <input type="text" placeholder="Nome" id="in-nome" class="circle">
+                </div>
+                <div id="sobrenome">
+                    <span>Sobrenome *</span>
+                    <input type="text" placeholder="Sobrenome" id="in-sobrenome" class="circle">
+                </div>
+            </div>
             <span>CPF *</span>
-            <p><input type="text" placeholder="XXX.XXX.XXX-XX"></p>
+            <p><input type="text" placeholder="XXX.XXX.XXX-XX" class="circle"></p>
             <span>Cartão do SUS *</span>
-            <p><input type="text" placeholder="XXX-XXXX-XXXX-XXXX"></p>
+            <p><input type="text" placeholder="XXX-XXXX-XXXX-XXXX" class="circle"></p>
             <span>Telefone *</span>
-            <p><input type="text" placeholder="(XX) X XXXX-XXXX"></p>
+            <p><input type="text" placeholder="(XX) X XXXX-XXXX" class="circle"></p>
         </div>
         <div id="nav-r">
             <span>E-mail *</span>
-            <p><input type="email" placeholder="E-mail"></p>
+            <p><input type="email" placeholder="E-mail" class="circle"></p>
             <span>Confirmar e-mail *</span>
-            <p><input type="email" placeholder="E-mail"></p>
+            <p><input type="email" placeholder="E-mail" class="circle"></p>
             <span>Senha *</span>
-            <p><input type="password"></p>
+            <p><input type="password" class="circle"></p>
             <span>Confirmar senha *</span>
-            <p><input type="password"></p>
+            <p><input type="password" class="circle"></p>
             <div id="botoes">
-                <button type="submit" id="btn-cadastrar">Cadastrar</button>
-                <span>Já possui cadastro?</span>
-                <p><a href="index.html" id="link">Faça o login</a></p>
+                <button type="submit" id="btn-cadastrar" class="circle">Cadastrar</button>
+                <div class="links">
+                    <span>Já possui cadastro?</span>
+                    <p><a href="index.html" id="link">Faça o login</a></p>    
+                </div>
             </div>
         </div>
     </div>

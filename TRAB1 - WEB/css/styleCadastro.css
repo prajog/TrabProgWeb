@@ -25,24 +25,48 @@
 
 #nav-l{
     grid-area: l;
-    margin-left: 55%;
-
-}
-
-#txt-a {
-    margin-left: 7.7em;
-    margin-right: 5em;
+    padding-left: 14em;
 }
 
 #nav-r{
     grid-area: r;
-    margin-left: 7%;
+    padding-left: 7%;
 }
 
 #botoes {
-    display: inline;
+    display: flex;
 }
 
-#link {
-    padding-left: 6em;
+.links {
+    text-align: center;
+}
+
+#l-row1 {
+    display: flex;
+}
+
+.circle {
+    border: 1px solid !important;
+    border-radius: 8px;
+    width: 23em;
+    font-size: 1.2em;
+    padding: 10px 10px;
+    margin-bottom: 1.2em;
+}
+
+#in-nome{
+    width: 9.8em;
+}
+
+#in-sobrenome{
+    width: 9.8em;
+}
+#btn-cadastrar {
+    width: 9.8em;
+    background: #438e82;
+    margin-right: 1.5em
+}
+#btn-cadastrar:hover {
+    cursor: pointer;
+    background: #3d796f;;
 }
