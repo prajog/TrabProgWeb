@@ -29,7 +29,10 @@ button:hover {
 
 .nav-l {
     grid-area: l;
+    padding-left: 6em;
 }
 .nav-r {
     grid-area: r;
+    padding-top: 6em;
+    padding-right: 6em;
 }
