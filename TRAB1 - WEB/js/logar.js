@@ -1,20 +1,20 @@
-var inID = document.getElementById("inID");
-var inSenha = document.getElementById("inSenha");
+var inNome = document.getElementById("inID");
+var inSobrenome = document.getElementById("inSenha");
 var btEntrar = document.getElementById("btEntrar");
 
 function entrar() {
-    var id = inID.value;
-    var senha = inSenha.value;
+    var id = inNome.value;
+    var senha = inSobrenome.value;
     
-    if (inID.value == "") {
+    if (inNome.value == "") {
         alert("O campo 'CPF ou Cartão do SUS' não foi preenchido!");
-        inID.focus();
+        inNome.focus();
     }else{
-        if(inSenha.value == "") {
+        if(inSobrenome.value == "") {
             alert("O campo 'Senha' não foi preenchido!");
-            inSenha.focus();
+            inSobrenome.focus();
         }else{
-            if (inID.value != "chicoin" || inSenha.value != "eutentei"){
+            if (inNome.value != "chicoin" || inSobrenome.value != "eutentei"){
                 alert("Usuário ou Senha foram digitados errado!")
             }else{
                 window.location.href = "pagPrincipal.html";

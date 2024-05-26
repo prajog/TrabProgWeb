@@ -54,19 +54,25 @@
     margin-bottom: 1.2em;
 }
 
-#in-nome{
+#inNome{
     width: 9.8em;
 }
 
-#in-sobrenome{
+#inSobrenome{
     width: 9.8em;
 }
-#btncadastrar {
+#btnCadastrar {
     width: 9.8em;
     background: #438e82;
     margin-right: 1.5em
 }
-#btn_cadastrar:hover {
+#btnCadastrar:hover {
     cursor: pointer;
     background: #3d796f;;
+}
+a {
+    color:#5382d5
+}
+a:hover {
+    color: #43b4a1;
 }
