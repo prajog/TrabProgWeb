@@ -24,7 +24,7 @@ function entrar() {
 
 }btEntrar.addEventListener("click", entrar);
 document.addEventListener('keypress', function(event) {
-    if (event.key === 'Enter') {
+    if (event.key == 'Enter') {
       entrar();
     }
   });

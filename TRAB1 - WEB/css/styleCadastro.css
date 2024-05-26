@@ -61,12 +61,12 @@
 #in-sobrenome{
     width: 9.8em;
 }
-#btn-cadastrar {
+#btn_cadastrar {
     width: 9.8em;
     background: #438e82;
     margin-right: 1.5em
 }
-#btn-cadastrar:hover {
+#btn_cadastrar:hover {
     cursor: pointer;
     background: #3d796f;;
 }
