@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="css/horarioAgenda.css"><link rel="stylesheet" href= "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="css/calendario.css">
     <script src="js/calendario.js" defer></script>
+    <script src="js/horarioAgenda.js" defer></script>
 </head>
 <body>
     <header>
         <div class="nav">
 
+            <div id="logo"><a href="pagPrincipal.html">+SUS</a></div>
             <ul class="navlist">
                 <li class="nav-item">
                     <a class="nav-link active" href="pagPrincipal.html">Página Principal</a>
@@ -27,13 +29,11 @@
                     <a class="nav-link active" href="index.html">Sair</a>
                 </li>
             </ul>
-
-            <p id="logo">+SUS</p>
+            
         </div>
     </header>
 
     <section>
-        
         
         <div class="conteudo">
             <div class="agendamento">
@@ -69,15 +69,16 @@
                 <div class="escolheHora">
                     <label class="item" for="id">Escolha um horário:</label>
                     <div id="horarios">
-                        <div>08:00</div>
-                        <div>08:30</div>
-                        <div>09:00</div>
-                        <div>09:30</div>
-                        <div>10:00</div>
-                        <div>10:30</div>
-                        <div>11:00</div>
-                        <div>11:30</div>
-                        <div>12:00</div>
+                        <div class="item-EscolheHora">08:00</div>
+                        <div class="item-EscolheHora">08:30</div>
+                        <div class="item-EscolheHora">09:00</div>
+                        <div class="item-EscolheHora">09:30</div>
+                        <div class="item-EscolheHora">10:00</div>
+                        <div class="item-EscolheHora">10:30</div>
+                        <div class="item-EscolheHora">11:00</div>
+                        <div class="item-EscolheHora">11:30</div>
+                        <div class="item-EscolheHora">12:00</div>
+                        
                     </div>
                 </div>
             </div>

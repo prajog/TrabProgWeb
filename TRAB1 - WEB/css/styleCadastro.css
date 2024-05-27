@@ -61,11 +61,13 @@
 #inSobrenome{
     width: 9.8em;
 }
-#btnCadastrar {
+#btnCadastrar{
     width: 9.8em;
-    background: #438e82;
-    margin-right: 1.5em
+    background-color: #438e82;
+    margin-right: 1.5em;
+    color: white;
 }
+
 #btnCadastrar:hover {
     cursor: pointer;
     background: #3d796f;;
