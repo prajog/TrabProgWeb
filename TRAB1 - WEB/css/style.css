@@ -103,7 +103,7 @@ button{
     border: none;
     position: relative;
     margin: 0;
-    bottom: 185%;
+    bottom: 90%;
     left: 80%;
     height: 3em;
 }
@@ -111,12 +111,12 @@ button{
 .UBS h3{
 
     position: relative;
-    bottom: 50%;
+    bottom: 0%;
     right: -20%;
 }
 
 .UBS p{
 
     position: relative;
-    bottom: 55%;
+    bottom: -30%;
 }
