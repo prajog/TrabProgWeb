@@ -23,14 +23,6 @@
     height: 3em;
 }
 
-#voltar{
-
-    position: relative;
-    left: 10%;
-    background-color: black;
-
-}
-
 .unidades {
     display: flex;
     flex-wrap: wrap;
@@ -60,4 +52,38 @@
     border: none;
     border-radius: 10px;
     background-color: #438e82;
+}
+
+section{
+    margin-top: 5rem;
+}
+
+#hepatite{
+    background-color: #f7f7f8;
+    text-align: center;
+    border-left: 50px;
+
+    width: 40%;
+    left: 30%;
+    position: relative;
+    border: solid black 0.5px;
+    border-radius: 10px;
+}
+
+#hepatite h1{
+    color: #226258;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.btnVoltar{
+    
+    color: white;
+    margin-top: 3rem;
+    width: 4vw;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #438e82;
+
 }
