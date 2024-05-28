@@ -25,7 +25,7 @@
 
 #nav-l{
     grid-area: l;
-    padding-left: 14em;
+    padding-left: 26em;
 }
 
 #nav-r{
@@ -77,4 +77,7 @@ a {
 }
 a:hover {
     color: #43b4a1;
+}
+#sobrenome {
+    margin-left: 2.65em;
 }
