@@ -25,7 +25,7 @@
 
 #nav-l{
     grid-area: l;
-    padding-left: 14em;
+    padding-left: 26em;
 }
 
 #nav-r{
@@ -70,11 +70,14 @@
 
 #btnCadastrar:hover {
     cursor: pointer;
-    background: #3d796f;;
+    background: #3d796f;
 }
 a {
     color:#5382d5
 }
 a:hover {
     color: #43b4a1;
+}
+#sobrenome {
+    margin-left: 2.65em;
 }
