@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página Principal</title>
   <link rel="stylesheet" href="css/navBar.css">
+  <link rel="stylesheet" href="css/stylePagPrincipal.css">
 </head>
 
 <body>
   <header>
     <div class="nav">
-
+      <div id="logo"><a href="pagPrincipal.html">+SUS</a></div>
       <ul class="navlist">
         <li class="nav-item">
           <a class="nav-link active" href="pagPrincipal.html">Página Principal</a>
@@ -27,26 +28,30 @@
         </li>
       </ul>
 
-      <p id="logo">+SUS</p>
+
     </div>
   </header>
-  <main>
-    <div id="agdConsulta">
-      <a href="agendaconsulta.html"><button>Agendar Consultas</button></a>
+  <div class="container">
+    <div class="nav-l">
+      <div id="agdConsulta">
+        <a href="agendaconsulta.html"><button class="circle" type="submit">Agendar Consultas</button></a>
+      </div>
+      <div id="agdExame">
+        <a href="agendaExame.html"><button class="circle" type="submit">Agendar Exames</button></a>
+      </div>
+      <div id="agendamentos">
+        <a href="meusAgendamentos.html"><button class="circle" type="submit">Meus Agendamentos</button></a>
+      </div>
     </div>
-    <div id="agdExame">
-      <a href="agendaExame.html"><button>Agendar Exames</button></a>
+    <div class="nav-r">
+      <div id="vacinas">
+        <a href="vacinas.html"><button class="circle" type="submit">Vacinas</button></a>
+      </div>
+      <div id="unidadesSaude">
+        <a href="ubs.html"><button class="circle" type="submit">Unidades de Saúde</button></a>
+      </div>
     </div>
-    <div id="agendamentos">
-      <a href="meusAgendamentos.html"><button>Meus Agendamentos</button></a>
-    </div>
-    <div id="vacinas">
-      <a href="vacinas.html"><button>Vacinas</button></a>
-    </div>
-    <div id="unidadesSaude">
-      <a href="#"><button>Unidades de Saúde</button></a>
-    </div>
-  </main>
+  </div>
 </body>
 
 </html>
