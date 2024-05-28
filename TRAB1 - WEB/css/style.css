@@ -43,13 +43,14 @@
     align-items: center;
     border: 1px rgb(100, 100, 100) solid;
     margin-right: 2em;
+    margin-top: 2em;
     padding: 1em;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .UBS div {
-    margin-right: 2em;
+    margin-right: 3em;
 }
 
 
@@ -59,17 +60,4 @@
     border: none;
     border-radius: 10px;
     background-color: #438e82;
-}
-
-.UBS h3{
-
-    position: relative;
-    bottom: 0%;
-    right: -20%;
-}
-
-.UBS p{
-
-    position: relative;
-    bottom: -30%;
 }
