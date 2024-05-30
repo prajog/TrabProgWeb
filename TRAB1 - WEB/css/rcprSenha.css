@@ -44,13 +44,13 @@
     border-radius: 11px;
     font-size: 16px;
     cursor: pointer;
-    width: 100px;
-    margin-right: 20px;
+    width: auto;
     margin-bottom: 0.5em;
 }
   
 .green-button:hover {
     background-color: #3a867a;
+    
 }
 
 .circle {
