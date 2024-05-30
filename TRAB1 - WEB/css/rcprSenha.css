@@ -83,3 +83,30 @@ a {
 a:hover {
     color: #438e82;
 }
+@media screen and (max-width:783px) {
+    #container{
+        display: grid;
+        grid-template-areas: 'a a';
+        grid-template-columns: 1fr;
+        background-color: #438e82;
+    }
+
+    #nav-bcg{
+        display: none;
+    }
+
+    #nav-txt {
+        background: #ffff;
+        border-radius: 1em;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .circle {
+        width: 14em;
+    }
+    
+    #navtxt-text {
+        text-align: center;
+    }
+}

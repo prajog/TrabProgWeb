@@ -29,9 +29,7 @@ body{
     align-self: center;
 }
 .input-text{
-    border: none;
     font-size: 16px;
-    margin: 0;
     margin-bottom: 12px;
     padding: 15px;
     outline: 0;
@@ -63,9 +61,9 @@ body{
     margin-right: 20px;
 }
   
-    .green-button:hover {
-        background-color: #3a867a;
-    }
+.green-button:hover {
+    background-color: #3a867a;
+}
 
 .circle {
     border: 1px solid !important;
@@ -107,4 +105,36 @@ a {
 }
 a:hover {
     color: #438e82;
+}
+
+@media screen and (max-width: 783px) {
+    #container{
+        display: grid;
+        grid-template-areas: 'a a';
+        grid-template-columns: 1fr;
+        background-color: #438e82;
+    }
+
+    #nav-bcg{
+        display: none;
+    }
+
+    #nav-txt {
+        background: #ffff;
+        border-radius: 1em;
+        padding: 1em;
+        text-align: center;
+    }
+
+    .circle {
+        width: 14em;
+    }
+    
+    #inUser {
+        text-align: center;
+    }
+
+    #inPassword {
+        text-align: center;
+    }
 }

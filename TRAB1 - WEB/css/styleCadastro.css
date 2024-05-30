@@ -7,15 +7,18 @@
 
 #container{
     width: 100%;
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* display: grid;
     grid-template-areas: 'a a' 'l r';
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 5fr; */
 }
 
 #title{
     text-align: center;
-    grid-area: a;
+    margin-bottom: 2em;
 }
 #logo{
     font-size: 5rem;
@@ -23,18 +26,9 @@
     color: #438e82;
 }
 
-#nav-l{
-    grid-area: l;
-    padding-left: 26em;
-}
-
-#nav-r{
-    grid-area: r;
-    padding-left: 7%;
-}
-
 #botoes {
     display: flex;
+    flex-direction: row;
 }
 
 .links {
@@ -80,4 +74,61 @@ a:hover {
 }
 #sobrenome {
     margin-left: 2.65em;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 1250px) {
+    #container {
+        flex-direction: column;
+        text-align: center;
+    }
+    #nav-l {
+        text-align: center;
+    }
+    #nav-r {
+        text-align: center;
+    }
+    #botoes {
+        justify-content: center;
+    }
+    #l-row1 {
+        flex-direction: column;
+    }
+    #sobrenome {
+        margin-left: 0;
+    }
+    #inNome {
+        width: 23em;
+    }
+    #inSobrenome {
+        width: 23em;
+    }
+}
+@media screen and (max-width: 783px) {
+    #title {
+        margin-bottom: 1em;
+    }
+    #logo {
+        font-size: 3em;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    .circle {
+        width: 12em;
+        margin-bottom: 0.6em;
+    }
+    #inNome {
+        width: 12em;
+    }
+    #inSobrenome {
+        width: 12em;
+    }
+    #btnCadastrar {
+        width: 6em;
+    }
+
 }
