@@ -5,9 +5,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-    display: grid;
-    grid-template-areas: 'l r';
-    grid-template-columns: 1f 2fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 #nav-l{
     text-align: center;
@@ -33,11 +33,11 @@ img {
     margin-bottom: 0.5em;
 }
 #nav-title {
-    margin-right: 1em;
     margin-top: 1em;
     margin-bottom: 0.8em;
     border-radius: 12px;
     background-color: #a7d0ca;
+    width: 12em;
 }
 #nameUser {
     margin-top: 0.6em;
@@ -50,7 +50,6 @@ img {
     border-radius: 11px;
     font-size: 2em;
     cursor: pointer;
-    margin-right: 20px;
 }
 #nav-button {
     text-align: center;
@@ -58,4 +57,24 @@ img {
 }
 .green-button:hover {
     background-color: #10ac9c;
+}
+
+@media screen and (max-width:783px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav {
+        display: none;
+    }
+    img{
+        padding-top: 2em;
+        width: 20em;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+    #nav-title{
+        width: 12em;
+    }
 }
