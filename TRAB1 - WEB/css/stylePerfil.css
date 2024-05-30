@@ -64,9 +64,9 @@ img {
         flex-direction: column;
         align-items: center;
     }
-    .nav {
+    /* .nav {
         display: none;
-    }
+    } */
     img{
         padding-top: 2em;
         width: 20em;
