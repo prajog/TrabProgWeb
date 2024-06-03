@@ -61,6 +61,8 @@ section{
     background-color: #f7f7f8;
     border-left: 50px;
 
+    height: 30em;
+
     width: 40%;
     left: 30%;
     position: relative;
@@ -79,6 +81,7 @@ section{
 }
 
 #hepatite div{
+    font-size: 150%;
     display: inline-block; 
     text-align: left;
 }
