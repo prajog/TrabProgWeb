@@ -79,10 +79,13 @@ section{
     
     color: white;
     margin-top: 3rem;
-    width: 4vw;
-    height: 4vh;
+    width: 5rem;
+    height: 4em;
     border: none;
     border-radius: 5px;
     background-color: #438e82;
+    position: absolute;
+    left: 5%;
+    bottom: 20px;
 
 }
