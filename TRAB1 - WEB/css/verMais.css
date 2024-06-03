@@ -3,13 +3,18 @@
 }
 
 section {
-    border: 3px solid rgb(59, 159, 137);
+    border: 1px solid rgb(0, 0, 0);
     margin: 0 auto;
+    margin-top: 2rem;
     text-align: center;
     max-width: 50vw;
     min-width: 30vw;
     padding: 20px;
     border-radius: 10px;
+}
+
+p{
+    margin: 1rem;
 }
 
 .h1{
