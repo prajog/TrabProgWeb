@@ -73,6 +73,11 @@ section{
     text-align: left
 }
 
+#hepatite h1{
+    color: #226258;
+    font-family: Impact,;
+}
+
 #hepatite div{
     display: inline-block; 
     text-align: left;
