@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="css/meusAgendamentos.css">
     <link rel="stylesheet" href="css/cancelamento.css">
     <script src="js/cancelamento.js" defer></script>
-    <script src="js/btnVerMais.js" defer></script>
-</head>
+    <script src="js/btnAcoes.js" defer></script></head>
 <body>
     <header>
         <div class="nav">
@@ -33,19 +32,55 @@
         </div>
     </header>
     <section>
-        <h1 class>Consulte ou cancele seus agendamentos</h1>
+        <h1>CONSULTE OU CANCELE SEUS AGENDAMENTOS</h1>
+        <img id="icnVoltar" src="img/setaVoltar.png" alt="" onclick="history.back()">
 
         <div class="agendamentos" id="agd1">
-            <!--icone-->
-            <div class="linha-1">
-                <p class="dentista" id="dentista"><b>Dentista</b></p>
-                <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
-
+            <div class="ag1">
+                <!--icone-->
+                <div class="linha-1">
+                    <p class="dentista" id="dentista"><b>Dentista</b></p>
+                    <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
+                </div>
+    
+                <p><b>Nome do paciente:</b> Fulano da Silva Santos</p>
+                <p><b>Data da consulta:</b> dd/mm/yyyy</p>
             </div>
-
-            <p><b>Nome do paciente:</b> Fulano da Silva Santos</p>
-            <p><b>Data da consulta:</b> dd/mm/yyyy</p>
-            <button class="btnVerMais" id="btnVerMais">Ver mais</button>
+            
+            <div class="btn">
+                <button class="btnVerMais" id="btnVerMais">Ver mais</button>
+            </div>
+        </div><div class="agendamentos" id="agd1">
+            <div class="ag1">
+                <!--icone-->
+                <div class="linha-1">
+                    <p class="dentista" id="dentista"><b>Dentista</b></p>
+                    <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
+                </div>
+    
+                <p><b>Nome do paciente:</b> Fulano da Silva Santos</p>
+                <p><b>Data da consulta:</b> dd/mm/yyyy</p>
+            </div>
+            
+            <div class="btn">
+                <button class="btnVerMais" id="btnVerMais">Ver mais</button>
+            </div>
+        </div>
+        <div class="agendamentos" id="agd1">
+            <div class="ag1">
+                <!--icone-->
+                <div class="linha-1">
+                    <p class="dentista" id="dentista"><b>Dentista</b></p>
+                    <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
+                </div>
+    
+                <p><b>Nome do paciente:</b> Fulano da Silva Santos</p>
+                <p><b>Data da consulta:</b> dd/mm/yyyy</p>
+            </div>
+            
+            <div class="btn">
+                <button class="btnVerMais" id="btnVerMais">Ver mais</button>
+            </div>
         </div>
     </section>
 
