@@ -108,3 +108,7 @@ section{
     bottom: 20px;
 
 }
+
+.btnVoltar a{
+    color: white;
+}
