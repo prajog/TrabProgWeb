@@ -39,6 +39,14 @@ body {
   width: 15vw;
 }
 
+.ok{
+  background-color: #438e82;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 4em;
+}
+
 .container {
   padding: 1em;
   text-align: center;
@@ -68,21 +76,6 @@ hr {
   border: 0.1em solid #f1f1f1;
   margin-bottom: 1em;
 }
- 
-.close {
-  position: absolute;
-  right: 5em;
-  top: 5em;
-  font-size: 40px;
-  font-weight: bold;
-  color: #f1f1f1;
-}
-
-/*.close:hover,
-.close:focus {
-  color: #f44336;
-  cursor: pointer;
-}*/
 
 .centralizar {/*os seguintes comandos servem para deixar os botoes centralizados*/
   display: flex;
