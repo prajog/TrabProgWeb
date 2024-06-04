@@ -31,18 +31,6 @@
     </header>
     <section>
         <div class="conteudo">
-            <div class="exames">
-                <label class="item" for="exame">Escolha o exame desejado:</label>
-
-                <select name="exame" id="exame">
-                <option value="exmSangue">Exame de Sangue</option>
-                <option value="exmPapaNicolau">Papa-Nicolau</option>
-                <option value="exmPreNatal">Pré-Natal</option>
-                <option value="exmRadiog">Radiografia</option>
-                <option value="exmMamog">Mamografia</option>
-                </select>
-            </div>
-
             <div class="unidades">
                 <label class="item" for="unidade">Selecione uma unidade:</label>
 
@@ -56,9 +44,21 @@
                 </select>
             </div>
 
+            <div class="exames">
+                <label class="item" for="exame">Escolha o exame desejado:</label>
+
+                <select name="exame" id="exame">
+                <option value="exmSangue">Exame de Sangue</option>
+                <option value="exmPapaNicolau">Papa-Nicolau</option>
+                <option value="exmPreNatal">Pré-Natal</option>
+                <option value="exmRadiog">Radiografia</option>
+                <option value="exmMamog">Mamografia</option>
+                </select>
+            </div>
+
             <div class="botoes">
-                <button name="btnvoltar"><a href="javascript:history.back()">Voltar</a></button>
-                <button name="btnprosseguir"><a href="horarioAgenda.html">Prosseguir</a></button>
+                <button class="btnfinais" name="btnvoltar" onclick="history.back()">Voltar</button>
+                <button class="btnfinais" name="btnprosseguir"><a href="horarioAgenda.html">Prosseguir</a></button>
             </div>
         </div>
     </section>

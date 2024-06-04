@@ -4,11 +4,9 @@ let month = date.getMonth();
 
 const day = document.querySelector(".calendar-dates");
 
-const currdate = document
-	.querySelector(".calendar-current-date");
+const currdate = document.querySelector(".calendar-current-date");
 
-const prenexIcons = document
-	.querySelectorAll(".calendar-navigation span");
+const prenexIcons = document.querySelectorAll(".calendar-navigation span");
 
 // Array of month names
 const months = [
@@ -46,8 +44,7 @@ const manipulate = () => {
 
 	// Loop to add the last dates of the previous month
 	for (let i = dayone; i > 0; i--) {
-		lit +=
-			`<li class="inactive">${monthlastdate - i + 1}</li>`;
+		lit += `<li class="inactive">${monthlastdate - i + 1}</li>`;
 	}
 
 	// Loop to add the dates of the current month

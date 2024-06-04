@@ -35,7 +35,7 @@
 
         <div class="pessoas">
             <div id="paciente">
-                <p><b>Paciente: Fulano da Silva Santo</b></p> 
+                <p><b>Paciente:</b> Fulano da Silva Santo</p> 
             </div>
 
             <div id="profissional">
@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <button class="btnVoltar" id="btnVoltar"><a href="meusAgendamentos.html">Voltar</a></button>
+        <button class="btnVoltar" id="btnVoltar" name="btnvoltar" onclick="history.back()">Voltar</button>
         <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
         
     </section>
@@ -88,7 +88,7 @@
         <form class="modal-content">
             <div class="container">
             <h1>Consulta Cancelada</h1>
-            <p>A sua consulta foi cancela com sucesso.</p>
+            <p>A sua consulta foi cancelada com sucesso.</p>
             
             <div class="clearfix">
                 <button type="button" onclick="document.getElementById('id02').style.display='none'" class="deletebtn">Ok</button>

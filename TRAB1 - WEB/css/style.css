@@ -23,9 +23,13 @@ a{
     border: none;
     border-radius: 10px;
     background-color: #438e82;
+    font-size: 1em;
 }
 
-
+.doenca button a{
+    color: white;
+    font-size: 1em;
+}
 .unidades {
     display: flex;
     flex-wrap: wrap;
