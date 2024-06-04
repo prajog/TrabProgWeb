@@ -6,11 +6,7 @@ function recuperar() {
     alert("O campo 'Email' não foi preenchido!");
     inEmail.focus();
   }else{
-    if(inEmail.value == "chicoJs"){
-      window.location.href = "msgPlaylist.html";
-    }else{
-      window.location.href = "msgRcpEmail.html";
-    }
+    window.location.href = "msgRcpEmail.html";
   }
 }btRecuperar.addEventListener("click", recuperar);
 
