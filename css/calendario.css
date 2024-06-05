@@ -5,10 +5,10 @@
 }
 
 .calendar-container {
-	background: white;
+	background: #e2f8f4;
     width: 20em;
 	border-radius: 10px;
-    box-shadow: 0em 0em 1.2em 0.5em rgba(0, 0, 0, 0.15);
+    box-shadow: 0em 0em 0.3em 0.1em rgba(0, 0, 0, 0.05);
 }
 
 .calendar-container header {
@@ -31,7 +31,7 @@ header .calendar-navigation span {
 	line-height: 38px;
 	border-radius: 50%;
 	user-select: none;
-	color: #aeabab;
+	color: #536b67;
 	font-size: 1.9rem;
 }
 
@@ -40,7 +40,7 @@ header .calendar-navigation span {
 }
 
 header .calendar-navigation span:hover {
-	background: #f2f2f2;
+	background: #b8d6cd;
 }
 
 header .calendar-current-date {
@@ -106,5 +106,5 @@ header .calendar-current-date {
 }
 
 .calendar-dates li:not(.active):hover::before {
-	background: #e4e1e1;
+	background: #b8d6cd;
 }

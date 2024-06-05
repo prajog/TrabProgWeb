@@ -1,3 +1,4 @@
+
 select {
     border: #cbcbcb solid 1px;
     border-radius: 10px;
@@ -41,12 +42,18 @@ select {
     justify-content: space-between;
 }
 
+body section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .conteudo {
     padding: 1em;
     border: none;
     border-radius: 10px;
-    box-shadow: 0em 0em 1em 0.4em rgba(0, 0, 0, 0.25);
+    box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     margin-top: 3em;
     max-width: 60vw;
 }
+
