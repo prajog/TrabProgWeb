@@ -2,7 +2,7 @@
 select {
     border: #cbcbcb solid 1px;
     border-radius: 10px;
-    background-color: #e0f5f1;
+    background-color: #e2f8f4;
     width: 100%;
     padding: 0.6em 0.3em;
     font-size: 1em;
@@ -42,11 +42,6 @@ select {
     justify-content: space-between;
 }
 
-body section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 .conteudo {
     padding: 1em;
     border: none;

@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 * {box-sizing: border-box;}
 
 .modal > button {
@@ -13,11 +14,9 @@ body {
   width: 100%;
   opacity: 0.9;
 }
-
-.modal > button:hover {
-  opacity:1;
+button:hover{
+  color: rgba(255, 255, 255, 0.753);
 }
-
 .cancelbtn, .deletebtn {
   float: left;
   width: 25%;
@@ -43,13 +42,28 @@ body {
   background-color: #438e82;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 1em 4em;
 }
 
-.container {
+.btnCancelar {
+  background-color: #a40000; 
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 1em;
+  height: 3em;
+}
+
+.btnCancelar:hover {
+  color: rgb(253, 211, 211);
+}
+
+.modal .container {
   padding: 1em;
   text-align: center;
+  border: none;
+  border-radius: 10px;
 }
 
 .modal {

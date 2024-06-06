@@ -1,8 +1,8 @@
 btnVerMais = document.getElementById("btnVerMais");
-btnVerMais.addEventListener("click", VerMais)
+btnVerMais.addEventListener("click", VerMais);
 
 btnVoltar = document.getElementsByName("btnvoltar")
-btnVoltar.addEventListener("click", Voltar)
+btnVoltar.addEventListener("click", Voltar);
 
 
 function VerMais(){

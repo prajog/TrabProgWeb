@@ -7,6 +7,7 @@
   <title>Página Principal</title>
   <link rel="stylesheet" href="css/navBar.css">
   <link rel="stylesheet" href="css/stylePagPrincipal.css">
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'><link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
 </head>
 
 <body>
@@ -29,40 +30,36 @@
       </ul>
     </div>
   </header>
+
   <div class="container">
-    <div class="nav-l">
-      <div id="direcionamento">
-        <a href="agendaConsulta.html">
-          <img src="https://i.ibb.co/16tSwSM/agenda.png" alt="agenda">
-          <button class="circle" type="submit">Agendar Consultas</button>
-        </a>
-      </div>
-      <a href="agendaExame.html">
-        <div id="direcionamento">
-            <img src="https://i.ibb.co/16tSwSM/agenda.png" alt="agenda">
-            <button class="circle" type="submit">Agendar Exames</button>
-        </div>
+    <div>
+      <a href="agendaConsulta.html" class="direcionamento">
+          <i class='bx bx-calendar-event'></i>
+          <p>Agendar Consultas</p>
       </a>
-      <div id="direcionamento">
-        <a href="meusAgendamentos.html">
-          <img src="https://i.ibb.co/ysGzkrx/agenda-1.png" alt="agenda-1">
-          <button class="circle" type="submit">Meus Agendamentos</button>
-        </a>
-      </div>
+
+      <a href="agendaExame.html" class="direcionamento">
+        <i class='bx bx-calendar-event'></i>
+          <p>Agendar Exames</p>
+      </a>
+
+      <a href="meusAgendamentos.html" class="direcionamento">
+        <i class='bx bx-calendar-check' ></i>
+        <p>Meus Agendamentos</p>
+      </a>
+
     </div>
-    <div class="nav-r">
-      <div id="direcionamento">
-        <a href="vacinas.html">
-          <img src="https://i.ibb.co/rwv1HG5/vacina.png" alt="vacina">
-          <button class="circle" type="submit">Vacinas</button>
-        </a>
-      </div>
-      <div id="direcionamento">
-        <a href="ubs.html">
-          <img src="https://i.ibb.co/qFFTHW1/hospital.png" alt="hospital">
-          <button class="circle" type="submit">Unidades de Saúde</button>
-        </a>
-      </div>
+
+    <div>
+      <a href="vacinas.html" class="direcionamento">
+          <img src="img/vaccine-svgrepo-com.svg" alt="vacina">
+          <p>Vacinas</p>
+      </a>
+
+      <a href="ubs.html" class="direcionamento">
+        <img src="img/hospital-svgrepo-com.svg" alt="">
+          <p>Unidades de Saúde</p>
+      </a>
     </div>
   </div>
 

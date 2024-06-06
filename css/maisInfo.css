@@ -3,13 +3,13 @@
 }
 
 section {
-    border: 1px solid rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     margin-top: 2rem;
     max-width: 50vw;
-    min-width: 30vw;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1em 4em;    
 }
 
 p{
@@ -19,6 +19,10 @@ p{
 h1{
     font-size: 2.5em;
     margin-bottom: 0.2em;
+}
+
+p{
+    font-size: 1em;
 }
 
 #especialidade{
@@ -31,15 +35,8 @@ h1{
     border: none;
     border-radius: 10px;
     color: white;
-    padding: 15px 32px;
-}
-
-.btnCancelar {
-    background-color: #a40000; 
-    border: none;
-    border-radius: 10px;
-    color: white;
-    padding: 15px 32px;
+    padding: 1em;
+    height: 3em;
 }
 
 .btnVoltar a{
