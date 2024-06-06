@@ -15,22 +15,24 @@
     border-radius: 0.5em;
     width: 15em;
     font-size: 1.4em;
-    background: #e0f5f1;
+    background-color:  #2d6157;
 }
 
 #direcionamento{
     margin-top: 8em;
     padding: 1em 1em;
-    background: #e0f5f1;
+    background-color:#2d6157;
+    border-radius: 10px;
 }
 
 #direcionamento:hover {
-    background: #d6ede9;
     cursor: pointer;
 }
+
 button:hover {
     cursor: pointer;
 }
+
 img{
     width: 3em;
 }
@@ -50,4 +52,15 @@ img{
         margin-bottom: 1.2em;
         width: 12em;
     }
+}
+
+footer {    
+    position: absolute;
+    bottom: 0;
+    width: 98.15vw;
+    height: 0.5rem;  
+    padding: 1em;
+    text-align: center;
+    color: white;
+    background-color: #2d6157;
 }
