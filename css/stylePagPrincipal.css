@@ -5,7 +5,6 @@
 }
 
 .body {
-    height: 90.9vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -52,12 +51,14 @@ img{
 }
 
 footer {
-    bottom: 0;
-    width: auto;
     padding: 1.5em;
     text-align: center;
     color: white;
     background-color: #2d6157;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 footer > img {
