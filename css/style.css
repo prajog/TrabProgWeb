@@ -2,34 +2,51 @@ a{
     color: white;
 }
 
+i{
+    font-size: 2em;
+    color:#226258;
+}
+
+#seta{
+    align-self: baseline;
+    margin-top: 0.5em;
+    margin-left: 2em;
+    color: rgba(0, 0, 0, 0.624);
+}
+
+#seta:hover{
+    color: black;
+}
+
 .doenca {
     display: flex;
+    justify-content: center;
     align-items: center;
-    border: 1px rgb(100, 100, 100) solid;
+    border: none;
     margin-right: 2em;
     margin-top: 2em;
     padding: 1em;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
 }
 
-.doenca div {
-    margin-right: 3em;
+.doenca p {
+    margin: 0em 2em;
 }
 
 .doenca button {
     color: white;
-    padding: 0.5em;
+    padding: 0.5em 0.8em;
     border: none;
     border-radius: 10px;
     background-color: #438e82;
-    font-size: 1em;
 }
 
 .doenca button a{
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
 }
+
 .unidades {
     display: flex;
     flex-wrap: wrap;
@@ -39,76 +56,80 @@ a{
 
 .UBS {
     display: flex;
+    justify-content: center;
     align-items: center;
-    border: 1px rgb(100, 100, 100) solid;
+    border: none;
     margin-right: 2em;
     margin-top: 2em;
     padding: 1em;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
 }
 
 .UBS div {
     margin-right: 3em;
 }
 
-
 .UBS button {
     color: white;
-    padding: 0.5em;
+    padding: 0.5em 0.8em;
     border: none;
     border-radius: 10px;
-    background-color: #438e82;
+    background-color: #438e82
 }
 
-section{
-    margin-top: 5rem;
+.UBS button a{
+    color: white;
+    font-size: 1.2em;
+}
+
+section > div{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #hepatite{
+    padding: 2em 1em;
     background-color: #f7f7f8;
-    border-left: 50px;
-
-    height: 30em;
-
-    width: 40%;
-    left: 30%;
+    width: 50vw;
     position: relative;
-    border: solid black 0.5px;
+    border: none;
     border-radius: 10px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left
+    box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
+    margin: 2em auto;
 }
 
 #hepatite h1{
     color: #226258;
-    font-family: Impact,;
+    font-family: Impact;
+    font-size: 2.5em;
 }
 
-#hepatite div{
-    font-size: 150%;
-    display: inline-block; 
-    text-align: left;
+#hepatite div p{
+    font-size: 1.3em;
+    padding: 0.3em 0em;
+}
+
+#hepatite h2{
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    font-size: 1.5em;
 }
 
 .btnVoltar{
-    
     color: white;
     margin-top: 3rem;
-    width: 5rem;
-    height: 4em;
+    padding: 1em 1.5em;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #438e82;
     position: absolute;
     right: 5%;
     bottom: 20px;
-
 }
 
 .btnVoltar a{
     color: white;
+    font-size: 1.3em;
 }

@@ -10,7 +10,7 @@
 .item-EscolheHora{
     margin: 0.2em;
     color: white;
-    background-color: #b6b9b8;
+    background-color: #989b9a;
     padding: 0.5em;
     border-radius: 10px;
 }
@@ -63,14 +63,6 @@
     margin-bottom: 3em;
     width: 50vw;
     min-width: 40em;
-}
-
-#dtAgenda {
-    border: slategray solid 1px;
-    border-radius: 5px;
-    width: 25%;
-    height: 5vh;
-    background-color: #e0f5f1;
 }
 
 .calendar-container{

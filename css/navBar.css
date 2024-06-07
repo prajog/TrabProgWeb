@@ -7,7 +7,7 @@
 }
 
 .nav{
-    max-width: 100%;
+    width: auto;
     background-color: #2d6157;
     padding: 1em;
     display: flex;

@@ -1,13 +1,16 @@
 .container {
-    margin: 5em auto;
-    width: 60vw;
+    padding: 2em;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .container p{
     font-size: 1.4em;
-    color: rgb(0, 0, 0);
+    color: #000000;
+}
+
+.container p:hover{
+    color: #165041e6;
 }
 
 .container div{
@@ -17,28 +20,23 @@
 }
 
 .direcionamento{
-    margin-bottom: 6em;
-    padding: 2.5em;
+    margin: 0em 2em 1em 0em;
+    padding: 2em;
+    width: auto;
     background-color:#fff;
     border-radius: 10px;
-    box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
+    box-shadow: 0em 0em 0.8em 0.1em rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
 }
 
-.direcionamento i, img{
-    color: black;
-    margin-right: 0.2em;
-}
 .direcionamento i{
+    color :#2d6157;
+    margin-right: 1em;
     font-size: 3em;
 }
 
-
 .direcionamento:hover {
-    cursor: pointer;
-}
-button:hover {
     cursor: pointer;
 }
 
@@ -46,30 +44,16 @@ img{
     width: 3em;
 }
 
-.nav-r {
-    align-self: center;
-}
-
-@media screen and (max-width: 783px){
-    .container{
-        flex-direction: column;
-        text-align: center;
-    }
-    .circle {
-        margin: 0;
-        margin-top: 1.4em;
-        margin-bottom: 1.2em;
-        width: 12em;
-    }
-}
-
-footer {    
-    position: absolute;
+footer {
     bottom: 0;
-    width: 98.15vw;
-    height: 0.5rem;  
-    padding: 1em;
+    width: auto;
+    padding: 1.5em;
     text-align: center;
     color: white;
     background-color: #2d6157;
+}
+
+footer > img {
+    margin-bottom: 0.3em;
+    font-size: 4em;
 }

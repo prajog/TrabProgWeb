@@ -73,3 +73,9 @@ img {
         width: 12em;
     }
 }
+
+i{
+    margin-top: 1em;
+    font-size: 10em;
+    color: #094e47;
+}

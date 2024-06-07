@@ -4,6 +4,9 @@ btnVerMais.addEventListener("click", VerMais);
 btnVoltar = document.getElementsByName("btnvoltar")
 btnVoltar.addEventListener("click", Voltar);
 
+seta = document.querySelector("#seta");
+seta.addEventListener("click", Voltar())
+
 
 function VerMais(){
     window.open("maisInfo.html", "_self");

@@ -54,8 +54,12 @@ section{
     justify-content: space-between;
 }
 
-#icnVoltar{
-    max-width: 8vw;
-    max-height: 8vh;
-    margin: 1em 0 ;
+i{
+    font-size: 2em;
+    margin: 0.5em 0;
+    color: rgba(0, 0, 0, 0.624);
+}
+
+i:hover{
+    color: black;
 }
