@@ -1,29 +1,13 @@
-h1 {
-    text-align: center;
-}
+.conteudo a {
 
-.btnfinais {
-    padding: 0.6em 4em;
-    font-size: 1rem;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    background-color: #438e82;
-}
-
-.btnfinais a{
-    font-size: 1rem;
-    color: white;
-}
-
-.botao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0.8em;
 }
 
 .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     padding: 1.5em;
     border: none;
     border-radius: 10px;
@@ -31,5 +15,8 @@ h1 {
     margin: 0 auto;
     margin-top: 3em;
     max-width: 40vw;
-    margin-bottom: 0;
+}
+
+.conteudo h1{
+    margin-bottom: 0.5em;
 }

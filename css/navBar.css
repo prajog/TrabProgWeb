@@ -6,6 +6,7 @@
     font-family: Arial;
 }
 
+/* Configurações da NavBar */
 .nav{
     width: auto;
     background-color: #2d6157;
@@ -41,4 +42,15 @@
 #logo a:hover{
     cursor: pointer;
     color: rgb(187, 245, 225);
+}
+
+/* Botões */
+.botaoPadrao{
+    padding: 0.6em 0;
+    width: 8em;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #438e82;    
 }

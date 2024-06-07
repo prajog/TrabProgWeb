@@ -1,21 +1,41 @@
 .container {
+    margin-top: 8em;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 #nav-l{
     text-align: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 #nav-r {
-    padding-top: 1em;
+    width: 40em;
     text-align: left;
-    justify-content: center;
+    /* justify-content: center; */
+
 }
-h1{
+
+.content {
+    box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.content h1{
     text-align: center;
-    font-size: 3em;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 0.8em;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    padding: 0.5em 0;
+    background-color: #438e82;
+    width: 100%;
 }
+
+.data{
+    padding: 1em;
+}
+
 #nav-txt {
     font-size: 1.5em;
     margin-bottom: 1.2em;
@@ -23,28 +43,24 @@ h1{
 #nav-subtitles {
     margin-bottom: 0.5em;
 }
-#nav-title {
-    margin-top: 1em;
-    margin-bottom: 0.8em;
-    border-radius: 12px;
-    background-color: #a7d0ca;
-    width: 12em;
-}
+
 #nameUser {
     margin-top: 0.6em;
 }
 .green-button {
-    background-color: #0db9a7;
+    margin-top: 1em;
+    background-color: #438e82;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 0.8em;
     border-radius: 11px;
-    font-size: 2em;
+    font-size: 1.3em;
     cursor: pointer;
 }
 #nav-button {
-    text-align: center;
-    margin-right: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .green-button:hover {
     background-color: #10ac9c;
@@ -67,8 +83,7 @@ h1{
     }
 }
 
-img{
-    padding-top: 1em;
-    font-size: 3em;
+i{
+    font-size: 15em;
     color: #094e47;
 }

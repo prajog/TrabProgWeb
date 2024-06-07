@@ -5,7 +5,7 @@ btnVoltar = document.getElementsByName("btnvoltar")
 btnVoltar.addEventListener("click", Voltar);
 
 seta = document.querySelector("#seta");
-seta.addEventListener("click", Voltar())
+seta.addEventListener("click", Voltar)
 
 
 function VerMais(){

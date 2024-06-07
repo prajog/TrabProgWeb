@@ -34,7 +34,8 @@ section{
     font-size: 1.3em;
     background-color: #438e82; 
     border: none;
-    border-radius: 10px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
     color: white;
     padding: 0.5em 3em;
     width: 100%;
