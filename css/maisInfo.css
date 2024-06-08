@@ -1,15 +1,13 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 section {
     border: none;
     border-radius: 10px;
     box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
     margin: 0 auto;
     margin-top: 2rem;
+    min-width: 10vw;
     max-width: 50vw;
-    padding: 1em 4em;    
+    padding: 1em 4em;
+    overflow: hidden;
 }
 
 p{
@@ -27,7 +25,7 @@ p{
 
 #especialidade{
     color: #438e82;
-    font-family: Impact;
+    font-weight: 1000;
 }
 
 .btnVoltar {
@@ -36,7 +34,6 @@ p{
     border-radius: 10px;
     color: white;
     padding: 1em;
-    height: 3em;
 }
 
 .btnVoltar a{

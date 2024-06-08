@@ -15,10 +15,6 @@
     color: #000000;
 }
 
-.container p:hover{
-    color: #165041e6;
-}
-
 .container div{
     display: flex;
     flex-direction: column;
@@ -44,10 +40,11 @@
 
 .direcionamento:hover {
     cursor: pointer;
+    transform: scale(1.1);
 }
 
-img{
-    width: 3em;
+.container .direcionamento{
+    transition: transform .7s ease;
 }
 
 footer {

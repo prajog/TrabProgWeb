@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus Agendamentos</title>
+    <link rel="icon" href="img/serra.png">
     <link rel="stylesheet" href="css/navBar.css">
     <link rel="stylesheet" href="css/meusAgendamentos.css">
     <link rel="stylesheet" href="css/cancelamento.css">
@@ -32,13 +33,11 @@
         </div>
     </header>
     <section>
-        <i class='bx bx-arrow-back' id="seta" onclick="history.back()"></i>
+        <i class='bx bx-arrow-back' id="setaagd"></i>
         <h1>CONSULTE OU CANCELE SEUS AGENDAMENTOS</h1>
-
         <div class="lista">
             <div class="agendamentos" id="agd1">
                 <div class="ag1">
-                    <!--icone-->
                     <div class="linha-1">
                         <p class="dentista" id="dentista"><b>Dentista</b></p>
                         <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
@@ -165,7 +164,7 @@
                     <p>A sua consulta foi cancelada com sucesso.</p>
                     
                     <div class="clearfix">
-                        <button type="button" onclick="document.getElementById('id02').style.display='none'" class="ok">Ok</button>
+                        <a type="button" onclick="document.getElementById('id02').style.display='none'" class="ok" href="pagPrincipal.html">Ok</a>
                     </div>
                 </div>
             </div>
