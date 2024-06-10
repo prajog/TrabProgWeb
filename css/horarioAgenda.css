@@ -1,0 +1,77 @@
+.agendamento {
+    display: flex;
+}
+
+.escolheHora > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-EscolheHora{
+    margin: 0.2em;
+    color: white;
+    background-color: #989b9a;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.escolheHora{
+    margin: 0 2em;
+    min-width: 12em;
+}
+
+.item {
+    margin-bottom: 0.8rem;
+    font-size: 1.3em;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btnfinais {
+    margin-top: 3rem;
+    font-size: 1.2em;
+    padding: 0.5em;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #438e82;
+}
+
+.btnfinais a{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo {
+    padding: 1.5em;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 50vw;
+    min-width: 40em
+}
+
+.calendar-container{
+    min-width: 20em;
+}
+
+.selHorario {
+    margin: 0.2em;
+    color: white;
+    padding: 0.5em;
+    border-radius: 10px;
+    background-color: #438e82;
+}
+
+.escolheHora > div > div{
+    cursor: pointer;
+}

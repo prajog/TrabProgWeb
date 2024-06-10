@@ -1,0 +1,43 @@
+section {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 2rem;
+    min-width: 10vw;
+    max-width: 50vw;
+    padding: 1em 4em;
+    overflow: hidden;
+}
+
+p{
+    margin: 1.2em 0;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+p{
+    font-size: 1em;
+}
+
+#especialidade{
+    color: #438e82;
+    font-weight: 1000;
+}
+
+.btnVoltar {
+    background-color: #438e82; 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 1em;
+}
+
+.btnVoltar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
