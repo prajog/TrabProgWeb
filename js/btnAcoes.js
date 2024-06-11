@@ -1,26 +1,7 @@
-btnVerMais = document.getElementById("btnVerMais");
-btnVerMais.addEventListener("click", VerMais);
-
-btnVoltar = document.getElementsByName("btnvoltar")
-btnVoltar.addEventListener("click", Voltar);
-
-seta = document.querySelector("#seta");
-seta.addEventListener("click", Principal);
-
-setaagd = document.getElementById("setaagd");
-setaagd.addEventListener("click", Principal);
-
-setaUbs = document.querySelector("setaUbs");
-setaUbs.addEventListener("click", Principal);
-
-function VerMais(){
-    window.open("maisInfo.html", "_self");
-}
-
-function Voltar(){
-    window.history.back();
-}
-
-function Principal(){
+function Principal(){ // Funcao para abrir a tela principal 
     window.open("pagPrincipal.html", "_self");
+}
+
+function infoAgendamento(){ // Funcao para abrir a tela das informacoes de agendamento
+    window.open("infoAgendamento.html", "_self");
 }

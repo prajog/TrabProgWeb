@@ -2,7 +2,8 @@ const horarios = document.querySelector("#horarios");
 let selecionado = false;
 let elem = null;
 
-for (let i = 0; i< horarios.childElementCount; i++){
+// Eventos
+for (let i = 0; i< horarios.childElementCount; i++){ // Adicionando evento de click aos botões de horários
     horarios.children[i].addEventListener("click", (ev) => {mudaCor(ev)});
 };
 

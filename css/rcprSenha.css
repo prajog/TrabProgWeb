@@ -65,6 +65,12 @@
     background-color: #c7c7c739;
 }
 
+.circle::placeholder{
+    color: #979797f7;
+    padding: 1em;
+    font-size: 0.8em;
+}
+
 .navtxt-text {
     margin-bottom: 0.5em;
 }
@@ -76,6 +82,7 @@
 .navtxt-title {
     margin-bottom: 0.9em;
 }
+
 #btnRcp {
     margin-top: 1em;
 }
@@ -83,9 +90,11 @@
 a {
     color:#000000
 }
+
 a:hover {
     color: #438e82;
 }
+
 @media screen and (max-width:783px) {
     #container{
         display: grid;

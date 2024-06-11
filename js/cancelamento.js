@@ -1,8 +1,13 @@
 var modal = document.getElementById('id01');
 var modal2 = document.getElementById('id02');
 
+// Evento de click na tela
 window.onclick = function(event) {
+
+  // Se o objeto do evento foi o aviso
   if (event.target == modal) {
+
+    // Aviso some
     modal.style.display = "none";
   }
 }

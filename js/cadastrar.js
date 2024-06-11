@@ -9,7 +9,9 @@ var inCfmEmail = document.getElementById("inCfmEmail");
 var inPssw = document.getElementById("inPssw");
 var inCfmPssw = document.getElementById("inCfmPssw");
 
-function cadastrar() {
+function cadastrar() { // Funcao para cadastro
+
+  // Verificacoes
   if (inNome.value == "") {
     alert("O campo 'Nome' não foi preenchido!");
     inNome.focus();
@@ -55,8 +57,9 @@ function cadastrar() {
         }
       }
     }
-  }   
-}btnCadastrar.addEventListener("click", cadastrar);
+  }
+}
+btnCadastrar.addEventListener("click", cadastrar); // Adiciona o evento de cadastro ao botao
 document.addEventListener('keypress', function(event) {
     if (event.key == 'Enter') {
       cadastrar();

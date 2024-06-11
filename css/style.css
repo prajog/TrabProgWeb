@@ -11,6 +11,7 @@ i{
     align-self: baseline;
     margin-top: 1.5em;
     margin-left: 2em;
+    margin-right: 1em;
     color: rgba(0, 0, 0, 0.624);
 }
 
@@ -18,7 +19,7 @@ i{
     color: black;
 }
 
-.doenca {
+.vacina {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,12 +31,12 @@ i{
     box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
 }
 
-.doenca p {
+.vacina p {
     margin: 0em 2em;
     font-size: 1.2em;
 }
 
-.doenca button {
+.vacina button {
     color: white;
     padding: 0.5em 0.8em;
     border: none;
@@ -43,12 +44,12 @@ i{
     background-color: #438e82;
 }
 
-.doenca button a{
+.vacina button a{
     color: white;
     font-size: 1.2em;
 }
 
-.doenca button:hover{
+.vacina button:hover{
     background-color: #577b74;
 }
 

@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horário e data</title>
+    <link rel="icon" href="img/serra.png">
     <link rel="stylesheet" href="css/navBar.css">
-    <link rel="stylesheet" href="css/horarioAgenda.css"><link rel="stylesheet" href= "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="css/agendaHorario.css"><link rel="stylesheet" href= "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" href="css/calendario.css">
     <script src="js/calendario.js" defer></script>
-    <script src="js/horarioAgenda.js" defer></script>
+    <script src="js/agendarHorario.js" defer></script>
 </head>
 <body>
     <header>
+        <!-- menu -->
         <div class="nav">
 
             <div id="logo"><a href="pagPrincipal.html">+SUS</a></div>
@@ -37,6 +39,7 @@
         
         <div class="conteudo">
             <div class="agendamento">
+                <!-- calendario -->
                 <div class="calendario">
                     <label class="item" for="id">1. Escolha uma data:</label>
 
@@ -64,6 +67,7 @@
                     </div>
                 </div>
                 
+                <!-- Botoes de escolher a hora -->
                 <div class="escolheHora">
                     <label class="item" for="id">2. Escolha um horário:</label>
                     <div id="horarios">
@@ -89,6 +93,7 @@
                     </div>
                 </div>
             </div>
+            <!-- botoes de voltar e prosseguir -->
             <div class="botoes">
                 <button class="btnfinais" name="btnvoltar" onclick="history.back()">Voltar</button>
                 <button class="btnfinais" name="btnprosseguir"><a href="fimAgendamento.html">Finalizar agendamento</a></button>

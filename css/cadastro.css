@@ -113,6 +113,12 @@ h1 {
     font-size: 3rem;
 }
 
+.circle::placeholder{
+    color: #979797f7;
+    padding: 1em;
+    font-size: 0.8em;
+}
+
 @media screen and (max-width: 1250px) {
     #container {
         flex-direction: column;
@@ -140,6 +146,7 @@ h1 {
         width: 23em;
     }
 }
+
 @media screen and (max-width: 783px) {
     #title {
         margin-bottom: 1em;
@@ -166,8 +173,3 @@ h1 {
 
 }
 
-.circle::placeholder{
-    color: #979797f7;
-    padding: 1em;
-    font-size: 0.8em;
-}
