@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <!-- Meta tags para definir a codificação de caracteres e a escala inicial -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Título da página e ícone na barra de título -->
     <title>Cadastro</title>
     <link rel="icon" href="img/serra.png">
-    
+
     <!-- Referência ao arquivo CSS para estilização da página -->
     <link rel="stylesheet" href="css/cadastro.css">
-    
+
     <!-- Referência ao arquivo JavaScript para validar os inputs (com o atributo defer para carregar após o HTML) -->
     <script src="js/cadastrar.js" defer></script>
 </head>
+
 <body>
     <!-- Cabeçalho com o logotipo -->
     <p id="logo">+SUS</p>
-    
+
     <!-- Container principal da página -->
     <div id="container">
         <!-- Título do formulário de cadastro -->
         <h1>Crie uma conta</h1>
-        
+
         <!-- Divisão para os campos de entrada -->
         <div class="inputs">
             <!-- Lado esquerdo dos campos de entrada -->
@@ -51,7 +53,7 @@
                 <span>Telefone *</span>
                 <p><input type="text" placeholder="(DDD) 12345-6789" id="inTel" class="circle"></p>
             </div>
-            
+
             <!-- Lado direito dos campos de entrada -->
             <div id="nav-r">
                 <!-- Campo de entrada para o email -->
@@ -68,17 +70,18 @@
                 <p><input type="password" placeholder="***********" id="inCfmPssw" class="circle"></p>
             </div>
         </div>
-        
+
         <!-- Botões para criar conta e link para retornar a pagina login -->
         <div id="botoes">
             <button type="submit" id="btnCadastrar" class="circle">Criar conta</button>
             <!-- Link para página de login -->
             <div class="links">
                 <span>Já possui conta?</span>
-                <p><a href="index.html" id="link">Faça o login</a></p>    
+                <p><a href="index.html" id="link">Faça o login</a></p>
             </div>
         </div>
-        
+
     </div>
 </body>
+
 </html>
