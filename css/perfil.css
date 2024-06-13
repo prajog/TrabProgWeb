@@ -104,6 +104,11 @@
     /* Cor de fundo quando hover */
 }
 
+#nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Media query para telas menores que 783px */
 @media screen and (max-width:783px) {
     .container {
