@@ -1,149 +1,244 @@
+/* Importa a fonte Poppins do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Estilo global aplicado a todos os elementos */
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    /* Usa a fonte Poppins para todos os elementos */
 }
 
-body{
+/* Estilo do body */
+body {
     width: 100vw;
+    /* Define a largura do corpo como 100% da largura da viewport */
     height: 100vh;
+    /* Define a altura do corpo como 100% da altura da viewport */
 }
-#container{
-    width: 100vw;
-    height: 100vh;
 
+/* Estilo do container principal */
+#container {
+    width: 100vw;
+    /* Define a largura do container como 100% da largura da viewport */
+    height: 100vh;
+    /* Define a altura do container como 100% da altura da viewport */
     display: grid;
+    /* Usa um layout de grid */
     grid-template-areas: "e d";
+    /* Define as áreas do grid */
     grid-template-columns: 1fr 1fr;
+    /* Define as colunas do grid */
     grid-template-rows: 1fr;
-}
-#nav-bcg{
-    grid-area: "e";
-    background-color: #438e82;
-}
-#nav-txt{
-    grid-area: "d";
-    
-    justify-self: center;
-    align-self: center;
-}
-.input-text{
-    font-size: 16px;
-    margin-bottom: 12px;
-    padding: 15px;
-    outline: 0;
-    height: auto;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-    width: 93%;
+    /* Define as linhas do grid */
 }
 
-.input-select{
-    border: none;
-    font-size: 16px;
-    margin: 0;
-    margin-bottom: 12px;
-    padding: 10px;
-    outline: 0;
-    height: auto;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-    width: 100%;
+/* Estilo do fundo do lado esquerdo */
+#nav-bcg {
+    grid-area: "e";
+    /* Define a área do grid */
+    background-color: #438e82;
+    /* Cor de fundo */
 }
+
+/* Estilo do texto e elementos no lado direito */
+#nav-txt {
+    grid-area: "d";
+    /* Define a área do grid */
+    justify-self: center;
+    /* Alinha o texto ao centro horizontalmente */
+    align-self: center;
+    /* Alinha o texto ao centro verticalmente */
+}
+
+/* Estilo para inputs de texto */
+.input-text {
+    font-size: 16px;
+    /* Define o tamanho da fonte */
+    margin-bottom: 12px;
+    /* Define a margem inferior */
+    padding: 15px;
+    /* Define o preenchimento interno */
+    outline: 0;
+    /* Remove o contorno ao focar */
+    height: auto;
+    /* Define a altura automática */
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra */
+    width: 93%;
+    /* Define a largura */
+}
+
+/* Estilo para selects */
+.input-select {
+    border: none;
+    /* Remove a borda */
+    font-size: 16px;
+    /* Define o tamanho da fonte */
+    margin: 0;
+    /* Define a margem */
+    margin-bottom: 12px;
+    /* Define a margem inferior */
+    padding: 10px;
+    /* Define o preenchimento */
+    outline: 0;
+    /* Remove o contorno ao focar */
+    height: auto;
+    /* Define a altura automática */
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra */
+    width: 100%;
+    /* Define a largura */
+}
+
+/* Estilos para o botão verde */
 .green-button {
     background-color: #438e82;
+    /* Cor de fundo do botão */
     color: white;
+    /* Cor do texto */
     border: none;
+    /* Remove a borda */
     padding: 10px 20px;
+    /* Define o preenchimento */
     border-radius: 11px;
+    /* Define o raio da borda */
     font-size: 16px;
+    /* Define o tamanho da fonte */
     cursor: pointer;
+    /* Altera o cursor para um ponteiro */
     width: 100px;
+    /* Define a largura */
     margin-right: 20px;
+    /* Define a margem direita */
 }
-  
+
+/* Efeito de hover para o botão verde */
 .green-button:hover {
     background-color: #3a867a;
+    /* Cor de fundo do botão quando hover */
 }
 
+/* Estilo para inputs redondos */
 .circle {
     border: 1px solid #000;
+    /* Define a borda */
     border-radius: 10px;
+    /* Define o raio da borda */
     width: 15em;
+    /* Define a largura */
     font-size: 1em;
+    /* Define o tamanho da fonte */
     padding: 0.5em;
+    /* Define o preenchimento */
     background-color: #c7c7c739;
+    /* Cor de fundo */
 }
 
+/* Estilo para o ícone de olho */
 .olho {
     cursor: pointer;
-    position:fixed;
+    /* Altera o cursor para um ponteiro */
+    position: fixed;
+    /* Define a posição fixa */
     width: 3em;
+    /* Define a largura */
 }
-  
+
+/* Estilos para o texto */
 .navtxt-text {
     margin-bottom: 0.5em;
+    /* Define a margem inferior */
 }
 
+/* Estilos para o link */
 #linkA {
     margin-left: 30px;
+    /* Define a margem esquerda */
 }
 
+/* Estilos para o logotipo */
 .logo {
     font-size: 7rem;
+    /* Define o tamanho da fonte */
     font-weight: bolder;
+    /* Define o peso da fonte */
     color: #438e82;
+    /* Cor do texto */
     margin-bottom: 0.2em;
+    /* Define a margem inferior */
 }
 
+/* Estilos para o título */
 #title {
     margin-bottom: 1.5em;
+    /* Define a margem inferior */
 }
 
+/* Estilos para botões de texto */
 .navtxt-button {
     margin-top: 1.7em;
+    /* Define a margem superior */
     margin-bottom: 0.5em;
+    /* Define a margem inferior */
 }
 
-.navtxt-link {
-    margin: 4em 0em 1em 0em;
-}
+/* Estilos para links */
 a {
-    color:#000000
+    color: #000000;
+    /* Cor dos links */
 }
+
+/* Estilos de hover para links */
 a:hover {
     color: #438e82;
+    /* Cor dos links quando hover */
 }
 
+/* Media query para telas menores que 783px */
 @media screen and (max-width: 783px) {
-    #container{
+    #container {
         display: grid;
+        /* Usa um layout de grid */
         grid-template-areas: 'a a';
+        /* Define as áreas do grid */
         grid-template-columns: 1fr;
+        /* Define as colunas do grid */
         background-color: #438e82;
+        /* Cor de fundo */
     }
 
-    #nav-bcg{
+    #nav-bcg {
         display: none;
+        /* Esconde o fundo do lado esquerdo */
     }
 
     #nav-txt {
         background: #ffff;
+        /* Cor de fundo do lado direito */
         border-radius: 1em;
+        /* Define o raio da borda */
         padding: 1em;
+        /* Define o preenchimento */
         text-align: center;
+        /* Alinha o texto ao centro */
     }
 
+    /* Ajuste do tamanho do input para telas menores */
     .circle {
         width: 14em;
+        /* Define a largura */
     }
-    
+
+    /* Ajuste do alinhamento dos inputs de texto */
     #inUser {
         text-align: center;
+        /* Alinha o texto ao centro */
     }
 
     #inPassword {
         text-align: center;
+        /* Alinha o texto ao centro */
     }
 }

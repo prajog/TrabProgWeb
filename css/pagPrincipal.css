@@ -1,64 +1,109 @@
+/* Estilos para o container */
 .container {
     padding: 7em;
+    /* Adiciona um preenchimento interno */
     display: flex;
+    /* Usa um layout flexível */
     justify-content: space-evenly;
+    /* Distribui os itens de forma uniforme ao longo do contêiner */
 }
 
+/* Estilos para o corpo */
 .body {
     display: flex;
+    /* Usa um layout flexível */
     flex-direction: column;
+    /* Define a direção dos itens como coluna */
     justify-content: space-between;
+    /* Distribui os itens uniformemente ao longo do eixo principal */
 }
 
-.container p{
+/* Estilos para os parágrafos dentro do contêiner */
+.container p {
     font-size: 1.4em;
+    /* Define o tamanho da fonte */
     color: #000000;
+    /* Define a cor do texto */
 }
 
-.container div{
+/* Estilos para as divs dentro do contêiner */
+.container div {
     display: flex;
+    /* Usa um layout flexível */
     flex-direction: column;
+    /* Define a direção dos itens como coluna */
     justify-content: center;
+    /* Centraliza os itens ao longo do eixo principal */
 }
 
-.direcionamento{
+/* Estilos para os elementos com a classe 'direcionamento' */
+.direcionamento {
     margin: 0em 2em 1em 0em;
+    /* Define as margens */
     padding: 2em;
+    /* Define o preenchimento interno */
     width: auto;
-    background-color:#fff;
+    /* Define a largura automática */
+    background-color: #fff;
+    /* Define a cor de fundo */
     border-radius: 10px;
+    /* Define o raio da borda */
     box-shadow: 0em 0em 0.8em 0.1em rgba(0, 0, 0, 0.2);
+    /* Adiciona uma sombra */
     display: flex;
+    /* Usa um layout flexível */
     align-items: center;
+    /* Alinha os itens ao centro verticalmente */
 }
 
-.direcionamento i{
-    color :#2d6157;
+/* Estilos para os ícones dentro dos elementos 'direcionamento' */
+.direcionamento i {
+    color: #2d6157;
+    /* Define a cor do ícone */
     margin-right: 1em;
+    /* Define a margem direita */
     font-size: 3em;
+    /* Define o tamanho do ícone */
 }
 
+/* Efeito de hover nos elementos 'direcionamento' */
 .direcionamento:hover {
     cursor: pointer;
+    /* Altera o cursor para um ponteiro */
     transform: scale(1.1);
+    /* Aumenta ligeiramente o tamanho do elemento */
 }
 
-.container .direcionamento{
-    transition: transform .7s ease;
+/* Transição suave do efeito de hover */
+.container .direcionamento {
+    transition: transform 0.7s ease;
+    /* Define a transição de 0.7 segundos com efeito de aceleração */
 }
 
+/* Estilos para o rodapé */
 footer {
     padding: 1.5em;
+    /* Define o preenchimento interno */
     text-align: center;
+    /* Alinha o texto ao centro */
     color: white;
+    /* Define a cor do texto */
     background-color: #2d6157;
+    /* Define a cor de fundo */
     position: fixed;
+    /* Fixa o rodapé na parte inferior da janela */
     bottom: 0;
+    /* Define a posição a partir do fundo */
     left: 0;
+    /* Define a posição a partir da esquerda */
     width: 100%;
+    /* Define a largura como 100% da janela */
 }
 
-footer > img {
+/* Estilos para imagens dentro do rodapé */
+footer>img {
     margin-bottom: 0.3em;
+    /* Define a margem inferior */
     font-size: 4em;
+    /* Define o tamanho da fonte */
 }

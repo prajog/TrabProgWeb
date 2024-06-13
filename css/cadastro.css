@@ -1,175 +1,268 @@
+/* Importa a fonte Poppins do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Estilo global aplicado a todos os elementos */
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    /* Usa a fonte Poppins para todos os elementos */
 }
 
+/* Estilo do body */
 body {
     display: flex;
+    /* Define um display flex */
     flex-direction: column;
+    /* Define a direção da flexão como coluna */
     justify-self: center;
+    /* Alinha os elementos ao centro horizontalmente */
     align-items: center;
+    /* Alinha os elementos ao centro verticalmente */
 }
 
-#container{
+/* Estilo do container principal */
+#container {
     display: flex;
+    /* Define um display flex */
     text-align: center;
+    /* Alinha o texto ao centro */
     flex-direction: column;
+    /* Define a direção da flexão como coluna */
     justify-content: center;
+    /* Alinha os itens ao centro verticalmente */
     align-items: center;
+    /* Alinha os itens ao centro horizontalmente */
     min-width: 70%;
+    /* Define a largura mínima */
     border: 1px solid #43545175;
+    /* Define uma borda */
     box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
+    /* Adiciona uma sombra */
     border-radius: 10px;
+    /* Define o raio da borda */
     margin-bottom: 2em;
-    /* display: grid;
-    grid-template-areas: 'a a' 'l r';
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 5fr; */
+    /* Define a margem inferior */
 }
 
-p{
+/* Estilo para parágrafos */
+p {
     text-align: center;
+    /* Alinha o texto ao centro */
 }
 
-.inputs{
+/* Estilo para a classe .inputs */
+.inputs {
     display: flex;
+    /* Define um display flex */
     width: 100%;
+    /* Define a largura como 100% */
     flex-direction: row;
+    /* Define a direção da flexão como linha */
     justify-content: space-evenly;
+    /* Distribui o espaço uniformemente entre os itens */
 }
 
-#nav-l, #nav-r{
+/* Estilos para os elementos #nav-l e #nav-r */
+#nav-l,
+#nav-r {
     padding: 1em;
+    /* Define o preenchimento */
 }
 
-#logo{
+/* Estilo para o logotipo */
+#logo {
     font-size: 5rem;
+    /* Define o tamanho da fonte */
     font-weight: bolder;
+    /* Define o peso da fonte */
     color: #438e82;
+    /* Cor do texto */
 }
 
+/* Estilo para os botões */
 #botoes {
     display: flex;
+    /* Define um display flex */
     flex-direction: row;
+    /* Define a direção da flexão como linha */
 }
 
+/* Estilos para os links */
 .links {
     text-align: center;
+    /* Alinha o texto ao centro */
 }
 
-#l-row1 {
-    display: flex;
-}
-
+/* Estilos para a classe .circle */
 .circle {
     border: 1px solid !important;
+    /* Define uma borda */
     border-radius: 10px;
+    /* Define o raio da borda */
     width: 23em;
+    /* Define a largura */
     font-size: 1.2em;
+    /* Define o tamanho da fonte */
     padding: 0.3em;
+    /* Define o preenchimento */
     margin-bottom: 1.2em;
+    /* Define a margem inferior */
     background-color: #c7c7c739;
+    /* Cor de fundo */
 }
 
-#inNome{
+/* Estilos para os inputs #inNome e #inSobrenome */
+#inNome,
+#inSobrenome {
     width: 9.8em;
+    /* Define a largura */
 }
 
-#inSobrenome{
+/* Estilos para o botão de cadastrar */
+#btnCadastrar {
     width: 9.8em;
-}
-
-#btnCadastrar{
-    width: 9.8em;
+    /* Define a largura */
     background-color: #438e82;
+    /* Cor de fundo */
     margin-right: 1.5em;
+    /* Define a margem direita */
     color: white;
+    /* Cor do texto */
 }
 
+/* Efeito de hover para o botão de cadastrar */
 #btnCadastrar:hover {
     cursor: pointer;
+    /* Altera o cursor para um ponteiro */
     background: #3d796f;
+    /* Altera a cor de fundo quando hover */
 }
 
+/* Estilos para links quando hover */
 a:hover {
-    color:#5382d5
+    color: #5382d5;
+    /* Altera a cor do texto quando hover */
 }
 
+/* Estilos para links */
 a {
     font-weight: 500;
+    /* Define o peso da fonte */
     color: #438e82;
+    /* Cor do texto */
 }
 
+/* Estilo para o sobrenome */
 #sobrenome {
     margin-left: 2.65em;
+    /* Define a margem esquerda */
 }
 
+/* Estilo para o título */
 h1 {
     padding: 0.3em 0em;
+    /* Define o preenchimento */
     font-size: 3rem;
+    /* Define o tamanho da fonte */
 }
 
-.circle::placeholder{
+/* Estilo do placeholder dos inputs */
+.circle::placeholder {
     color: #979797f7;
+    /* Cor do placeholder */
     padding: 1em;
+    /* Define o preenchimento */
     font-size: 0.8em;
+    /* Define o tamanho da fonte */
 }
 
+/* Media query para telas menores que 1250px */
 @media screen and (max-width: 1250px) {
+
+    /* Ajuste dos estilos para telas menores */
     #container {
         flex-direction: column;
+        /* Define a direção da flexão como coluna */
         text-align: center;
+        /* Alinha o texto ao centro */
     }
+
     #nav-l {
         text-align: center;
+        /* Alinha o texto ao centro */
     }
+
     #nav-r {
         text-align: center;
+        /* Alinha o texto ao centro */
     }
+
     #botoes {
         justify-content: center;
+        /* Alinha os itens ao centro horizontalmente */
     }
+
     #l-row1 {
         flex-direction: column;
+        /* Define a direção da flexão como coluna */
     }
+
     #sobrenome {
         margin-left: 0;
+        /* Remove a margem esquerda */
     }
+
     #inNome {
         width: 23em;
+        /* Define a largura */
     }
+
     #inSobrenome {
         width: 23em;
+        /* Define a largura */
     }
 }
 
+/* Media query para telas menores que 783px */
 @media screen and (max-width: 783px) {
+
+    /* Ajuste dos estilos para telas menores */
     #title {
         margin-bottom: 1em;
+        /* Define a margem inferior */
     }
+
     #logo {
         font-size: 3em;
+        /* Define o tamanho da fonte */
     }
+
     h1 {
         font-size: 1.8em;
+        /* Define o tamanho da fonte */
     }
+
     .circle {
         width: 12em;
+        /* Define a largura */
         margin-bottom: 0.6em;
+        /* Define a margem inferior */
     }
+
     #inNome {
         width: 12em;
+        /* Define a largura */
     }
+
     #inSobrenome {
         width: 12em;
+        /* Define a largura */
     }
+
     #btnCadastrar {
         width: 6em;
+        /* Define a largura */
     }
-
 }
-
