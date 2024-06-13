@@ -1,97 +1,148 @@
+/* Define o espaçamento superior do container */
 .container {
     margin-top: 4em;
     display: flex;
     justify-content: space-evenly;
+    /* Alinha os itens igualmente no espaço disponível */
     align-items: center;
-}
-#nav-l{
-    text-align: center;
-    /* justify-content: center; */
+    /* Alinha os itens verticalmente */
 }
 
+/* Estilo para o lado esquerdo do container */
+#nav-l {
+    text-align: center;
+    /* Alinha o texto ao centro */
+}
+
+/* Estilo para o lado direito do container */
 #nav-r {
     width: 40em;
+    /* Largura fixa */
     text-align: left;
-    /* justify-content: center; */
-
+    /* Alinha o texto à esquerda */
 }
 
+/* Estilo para o conteúdo */
 .content {
     box-shadow: 0em 0em 0.9em 0.1em rgba(0, 0, 0, 0.2);
+    /* Sombra do box */
     border-radius: 10px;
+    /* Borda arredondada */
 }
 
-.content h1{
+/* Estilo para o título do conteúdo */
+.content h1 {
     text-align: center;
+    /* Alinha o texto ao centro */
     color: white;
+    /* Cor do texto */
     font-size: 2em;
+    /* Tamanho da fonte */
     margin-bottom: 0.8em;
+    /* Margem inferior */
     border-start-start-radius: 10px;
+    /* Raio da borda do início */
     border-start-end-radius: 10px;
+    /* Raio da borda do fim */
     padding: 0.5em 0;
+    /* Preenchimento */
     background-color: #438e82;
+    /* Cor de fundo */
     width: 100%;
+    /* Largura total */
 }
 
-.data{
+/* Estilo para os dados */
+.data {
     padding: 1em;
+    /* Preenchimento */
 }
 
+/* Estilo para o texto principal */
 #nav-txt {
     font-size: 1.5em;
+    /* Tamanho da fonte */
     margin-bottom: 1.2em;
+    /* Margem inferior */
 }
+
+/* Estilo para os subtítulos */
 #nav-subtitles {
     margin-bottom: 0.5em;
+    /* Margem inferior */
 }
 
+/* Estilo para o nome do usuário */
 #nameUser {
     margin-top: 0.6em;
+    /* Margem superior */
 }
 
+/* Estilo para o botão verde */
 .green-button {
     margin-top: 1em;
+    /* Margem superior */
     background-color: #438e82;
+    /* Cor de fundo */
     color: white;
+    /* Cor do texto */
     border: none;
+    /* Sem borda */
     padding: 0.8em;
+    /* Preenchimento */
     border-radius: 11px;
+    /* Borda arredondada */
     font-size: 1.3em;
+    /* Tamanho da fonte */
     cursor: pointer;
+    /* Cursor */
 }
 
-#nav-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/* Estilo de hover para o botão verde */
 .green-button:hover {
     background-color: #0e493fe4;
+    /* Cor de fundo quando hover */
 }
 
+/* Media query para telas menores que 783px */
 @media screen and (max-width:783px) {
-    .container{
+    .container {
         flex-direction: column;
+        /* Direção da flexbox */
         align-items: center;
+        /* Alinhamento dos itens */
     }
-    i{
+
+    i {
         padding-top: 2em;
+        /* Preenchimento superior */
         width: 16em;
+        /* Largura */
     }
+
     h1 {
         font-size: 1.8em;
+        /* Tamanho da fonte */
     }
-    #nav-title{
+
+    #nav-title {
         width: 12em;
+        /* Largura */
     }
 }
 
-i{
+/* Estilo para o ícone */
+i {
     font-size: 15em;
+    /* Tamanho da fonte */
     color: #2d6157;
+    /* Cor do ícone */
     padding: 0.1em;
+    /* Preenchimento */
     border: 10px solid #2d6157;
+    /* Borda */
     border-radius: 0.1em;
+    /* Borda arredondada */
     max-width: 50vw;
+    /* Largura máxima */
 }
