@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <div class="nav">
+        <div class="nav"><!--Menu-->
             <div id="logo"><a href="pagPrincipal.html">+SUS</a></div>
             <ul class="navlist">
                 <li class="nav-item">
@@ -34,6 +34,7 @@
         <h1 class="h1" id="especialidade">DENTISTA</h1> <!--Especialidade-->
         <h2 class="h2" id="h2">Consulta</h2><!--Tipo do agendamento-->
 
+        <!--Informacoes referentes ao dados da consulta-->
         <div class="pessoas">
             <div id="paciente">
                 <p><b>Paciente:</b> Fulano da Silva Santo</p> 
@@ -63,11 +64,13 @@
             </div>
         </div>
 
+        <!--Botoes para permitir que o usuario volte a pagina anterior ou cancele a consulta-->
         <button class="btnVoltar" id="btnVoltar" name="btnvoltar" onclick="history.back()">Voltar</button>
         <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
         
     </section>
 
+    <!--Janela para garantir que o usuario nao cancele sua consulta por engano-->
     <div id="id01" class="modal">
         <form class="modal-content">
             <div class="container">
@@ -84,6 +87,7 @@
         </form>
     </div>
 
+    <!--Janela que informa que a consulta foi cancelada-->
     <div id="id02" class="modal">
         <form class="modal-content">
             <div class="container">

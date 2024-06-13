@@ -1,3 +1,4 @@
+/*Configura a section*/
 section {
     border: none;
     border-radius: 10px;
@@ -10,24 +11,24 @@ section {
     overflow: hidden;
 }
 
+/* Configura o p */
 p{
     margin: 1.2em 0;
+    font-size: 1em;
 }
 
+/* Configira o h1 */
 h1{
     font-size: 2.5em;
     margin-bottom: 0.2em;
 }
-
-p{
-    font-size: 1em;
-}
-
+/* Configura especialidade(h1) */
 #especialidade{
     color: #438e82;
     font-weight: 1000;
 }
 
+/* Decora o botao voltar */
 .btnVoltar {
     background-color: #438e82; 
     border: none;
@@ -36,6 +37,7 @@ p{
     padding: 1em;
 }
 
+/* Decora o link do botao de voltar */
 .btnVoltar a{
     text-decoration: none;
     color: aliceblue;

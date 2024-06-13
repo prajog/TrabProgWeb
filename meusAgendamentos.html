@@ -14,6 +14,8 @@
 </head>
 <body>
     <header>
+
+        <!--Menu-->
         <div class="nav">
             <div id="logo"><a href="pagPrincipal.html">+SUS</a></div>
             <ul class="navlist">
@@ -33,9 +35,14 @@
         </div>
     </header>
     <section>
+
+        <!--Seta para volta-->
         <i class='bx bx-arrow-back' id="setaagd" onclick="Principal()"></i>
+
         <h1>CONSULTE OU CANCELE SEUS AGENDAMENTOS</h1>
         <div class="lista">
+
+            <!--Bloco com as informacoes principais de cada agendamento-->
             <div class="agendamentos" id="agd1">
                 <div class="ag1">
                     <div class="linha-1">
@@ -52,9 +59,9 @@
                 </div>
             </div>
             
+            <!--Bloco com as informacoes principais de cada agendamento-->
             <div class="agendamentos" id="agd1">
                 <div class="ag1">
-                    <!--icone-->
                     <div class="linha-1">
                         <p class="dentista" id="dentista"><b>Dentista</b></p>
                         <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
@@ -65,13 +72,14 @@
                 </div>
                 
                 <div class="btn">
-                    <button class="btnVerMais" id="btnVerMais">Ver mais</button>
+                    <button class="btnVerMais" id="btnVerMais" onclick="infoAgendamento()">Ver mais</button>
                 </div>
             </div>
     
+            <!--Bloco com as informacoes principais de cada agendamento-->
             <div class="agendamentos" id="agd1">
                 <div class="ag1">
-                    <!--icone-->
+                     
                     <div class="linha-1">
                         <p class="dentista" id="dentista"><b>Dentista</b></p>
                         <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
@@ -82,64 +90,15 @@
                 </div>
                 
                 <div class="btn">
-                    <button class="btnVerMais" id="btnVerMais">Ver mais</button>
+                    <button class="btnVerMais" id="btnVerMais" onclick="infoAgendamento()">Ver mais</button>
                 </div>
-            </div>
-
-            <div class="agendamentos" id="agd1">
-                <div class="ag1">
-                    <!--icone-->
-                    <div class="linha-1">
-                        <p class="dentista" id="dentista"><b>Dentista</b></p>
-                        <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
-                    </div>
-        
-                    <p><b>Nome do paciente:</b> Fulano da Silva Santos</p>
-                    <p><b>Data da consulta:</b> dd/mm/yyyy</p>
-                </div>
-                
-                <div class="btn">
-                    <button class="btnVerMais" id="btnVerMais">Ver mais</button>
-                </div>
-            </div>
+            </div>    
             
-            <div class="agendamentos" id="agd1">
-                <div class="ag1">
-                    <!--icone-->
-                    <div class="linha-1">
-                        <p class="dentista" id="dentista"><b>Dentista</b></p>
-                        <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
-                    </div>
-        
-                    <p><b>Nome do paciente:</b> Fulano da Silva Santos</p>
-                    <p><b>Data da consulta:</b> dd/mm/yyyy</p>
-                </div>
-                
-                <div class="btn">
-                    <button class="btnVerMais" id="btnVerMais">Ver mais</button>
-                </div>
-            </div>
-    
-            <div class="agendamentos" id="agd1">
-                <div class="ag1">
-                    <!--icone-->
-                    <div class="linha-1">
-                        <p class="dentista" id="dentista"><b>Dentista</b></p>
-                        <button class="btnCancelar" id="btnCancelar" onclick="document.getElementById('id01').style.display='block'">Cancelar</button>
-                    </div>
-        
-                    <p><b>Nome do paciente:</b> Fulano da Silva Santos</p>
-                    <p><b>Data da consulta:</b> dd/mm/yyyy</p>
-                </div>
-                
-                <div class="btn">
-                    <button class="btnVerMais" id="btnVerMais">Ver mais</button>
-                </div>
-            </div>
         </div>
 
     </section>
 
+    <!--Janela que aparece ao apertar em cancelar e garante que ele realmente quer cancelar a consulta-->
     <div id="id01" class="modal">
         <form class="modal-content">
             <div class="container">
@@ -156,6 +115,7 @@
         </form>
     </div>
 
+    <!--Informa a consulta foi cancelada com sucesso-->
     <div id="id02" class="modal">
         <form class="modal-content">
             <div class="centralizar">
@@ -163,6 +123,7 @@
                     <h1>Consulta Cancelada</h1>
                     <p>A sua consulta foi cancelada com sucesso.</p>
                     
+                    <!--Ao apertar em ok voce volta para a pagina inicial-->
                     <div class="clearfix">
                         <a type="button" onclick="document.getElementById('id02').style.display='none'" class="ok" href="pagPrincipal.html">Ok</a>
                     </div>

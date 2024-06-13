@@ -1,20 +1,25 @@
+/* Decora o h1 */
 h1{
     margin-bottom: 1em;
     font-size: 2em;
 }
 
+/* Decora o nome da especialidade marcada */
 .dentista {
     font-size: 2em;
 }
 
+/* Decora o p */
 p{
     margin-bottom: 1rem;
 }
 
+/* Decora a section */
 section{
     padding: 0em 2em;
 }
 
+/* Decora a div dos agendamentos */
 .agendamentos{
     min-width: 100%;
     border: none;
@@ -24,11 +29,13 @@ section{
     border-radius: 10px;
 }
 
+/* Decora a div mais interna */
 .ag1{
     padding: 1.5em;
     padding-bottom: 0;
 }
 
+/* Decora o botao ver mais */
 .btnVerMais {
     font-size: 1.3em;
     background-color: #438e82; 
@@ -40,30 +47,37 @@ section{
     width: 100%;
 }
 
+/* Decora o btnvermais quando o mouse esta sobre ele */
 .btnVerMais:hover{
     color: rgb(195, 215, 208);
+    cursor: pointer;
 }
 
+/* Decora a cor do link */
 .btnVerMais a{
     text-decoration: none;
     color: aliceblue;
 }
 
+/*  decora a linha superior  */
 .linha-1{
     display: flex;
     justify-content: space-between;
 }
 
+/* configura a seta */
 i{
     font-size: 2em;
     margin: 0.5em 0;
     color: rgba(0, 0, 0, 0.624);
 }
 
+/* decora a seta ao ter um mouse sobre ela */
 i:hover{
     color: black;
 }
 
+/* decora a div externa */
 .lista{
     display: flex;
     flex-direction: column;
