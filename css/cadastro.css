@@ -65,10 +65,12 @@ p {
 }
 
 /* Estilos para os elementos #nav-l e #nav-r */
-#nav-l,
-#nav-r {
+#nav-l, #nav-r {
     padding: 1em;
     /* Define o preenchimento */
+}
+#l-row1  {
+    display: flex;
 }
 
 /* Estilo para o logotipo */
