@@ -46,7 +46,7 @@
             
             <!-- Link para voltar para a página de login -->
             <div id="linkLogin">
-                <a href="index.html"><span>← Voltar para login</span></a>
+                <a href="index.php"><span>← Voltar para login</span></a>
             </div>
         </div>
     </div>

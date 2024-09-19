@@ -77,7 +77,7 @@
             <!-- Link para página de login -->
             <div class="links">
                 <span>Já possui conta?</span>
-                <p><a href="index.html" id="link">Faça o login</a></p>
+                <p><a href="index.php" id="link">Faça o login</a></p>
             </div>
         </div>
 

@@ -24,14 +24,14 @@
         <!-- Barra de navegação -->
         <div class="nav">
             <!-- Logo +SUS -->
-            <div id="logo"><a href="pagPrincipal.html">+SUS</a></div>
+            <div id="logo"><a href="pagPrincipal.php">+SUS</a></div>
             <!-- Lista de links de navegação -->
             <ul class="navlist">
                 <li class="nav-item">
-                    <a class="nav-link active" href="pagPrincipal.html">Página Principal</a>
+                    <a class="nav-link active" href="pagPrincipal.php">Página Principal</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="meusAgendamentos.html">Meus Agendamentos</a>
+                    <a class="nav-link active" href="meusAgendamentos.php">Meus Agendamentos</a>
                 </li>
             </ul>
         </div>
@@ -67,7 +67,7 @@
 
             <!-- Botão para trocar de conta -->
             <div id="nav-button">
-                <a href="index.html">
+                <a href="index.php">
                     <button type="submit" class="green-button">Trocar de conta</button>
                 </a>
             </div>

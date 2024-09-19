@@ -16,19 +16,19 @@
     <header>
         <!-- Menu de Navegação para outras paginas -->
         <div class="nav">
-            <div id="logo"><a href="pagPrincipal.html">+SUS</a></div>
+            <div id="logo"><a href="pagPrincipal.php">+SUS</a></div>
             <ul class="navlist">
                 <li class="nav-item">
-                    <a class="nav-link active" href="pagPrincipal.html">Página Principal</a>
+                    <a class="nav-link active" href="pagPrincipal.php">Página Principal</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="meusAgendamentos.html">Meus Agendamentos</a>
+                    <a class="nav-link active" href="meusAgendamentos.php">Meus Agendamentos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="perfil.html">Perfil</a>
+                    <a class="nav-link active" href="perfil.php">Perfil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Sair</a>
+                    <a class="nav-link active" href="index.php">Sair</a>
                 </li>
             </ul>
 
@@ -46,7 +46,7 @@
                     <p>Localização R. parara</p>   
                 </div>
                 <!-- Botão com Link para outra pagina -->
-                <button><a href="infoUBS.html">Detalhes</a></button>
+                <button><a href="infoUBS.php">Detalhes</a></button>
             </div>
 
             <div class="UBS">
@@ -55,7 +55,7 @@
                     <h3>UBS Jacaraipe</h3>
                     <p>Localização R. parara</p>   
                 </div>
-                <button><a href="infoUBS.html">Detalhes</a></button>
+                <button><a href="infoUBS.php">Detalhes</a></button>
             </div>
 
             <div class="UBS">
@@ -64,7 +64,7 @@
                     <h3>UBS Nova Almeida</h3>
                     <p>Localização R. parara</p>   
                 </div>
-                <button><a href="infoUBS.html">Detalhes</a></button>
+                <button><a href="infoUBS.php">Detalhes</a></button>
             </div>
 
             <div class="UBS">
@@ -73,7 +73,7 @@
                     <h3>UBS P. Res. Laranjeiras</h3>
                     <p>Localização R. parara</p>   
                 </div>
-                <button><a href="infoUBS.html">Detalhes</a></button>
+                <button><a href="infoUBS.php">Detalhes</a></button>
             </div>
 
             <div class="UBS">
@@ -82,7 +82,7 @@
                     <h3>UBS Novo Horizonte</h3>
                     <p>Localização R. parara</p>   
                 </div>
-                <button><a href="infoUBS.html">Detalhes</a></button>
+                <button><a href="infoUBS.php">Detalhes</a></button>
             </div>
 
             <div class="UBS">
@@ -91,7 +91,7 @@
                     <h3>UBS Lorem Ipsum</h3>
                     <p>Localização R. parara</p>   
                 </div>
-                <button><a href="infoUBS.html">Detalhes</a></button>
+                <button><a href="infoUBS.php">Detalhes</a></button>
             </div>
         </div>
     </section>

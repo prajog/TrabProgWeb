@@ -13,19 +13,19 @@
 <body>
     <header>
         <div class="nav"><!--Menu-->
-            <div id="logo"><a href="pagPrincipal.html">+SUS</a></div>
+            <div id="logo"><a href="pagPrincipal.php">+SUS</a></div>
             <ul class="navlist">
                 <li class="nav-item">
-                    <a class="nav-link active" href="pagPrincipal.html">Página Principal</a>
+                    <a class="nav-link active" href="pagPrincipal.php">Página Principal</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="meusAgendamentos.html">Meus Agendamentos</a>
+                    <a class="nav-link active" href="meusAgendamentos.php">Meus Agendamentos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="perfil.html">Perfil</a>
+                    <a class="nav-link active" href="perfil.php">Perfil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Sair</a>
+                    <a class="nav-link active" href="index.php">Sair</a>
                 </li>
             </ul>
         </div>
@@ -95,7 +95,7 @@
                 <p>A sua consulta foi cancelada com sucesso.</p>
                 
                 <div class="clearfix">
-                    <a type="button" onclick="document.getElementById('id02').style.display='none'" class="ok" href="pagPrincipal.html">Ok</a>
+                    <a type="button" onclick="document.getElementById('id02').style.display='none'" class="ok" href="pagPrincipal.php">Ok</a>
                 </div>
             </div>
         </form>

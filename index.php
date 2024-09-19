@@ -49,9 +49,9 @@
                 </div>
                 <!-- Botão para entrar -->
                 <div id="btnEntrar" class="navtxt-button"><input type="button" value="Entrar" id="btEntrar"
-                        class="green-button"><a href="recpSenha.html" id="linkA">Esqueci minha senha</a></div>
+                        class="green-button"><a href="recpSenha.php" id="linkA">Esqueci minha senha</a></div>
                 <!-- Link para redefinir senha -->
-                <div class="navtxt-link"><a href="cadastro.html">Não possui conta? <b>Crie uma aqui</b></a></div>
+                <div class="navtxt-link"><a href="cadastro.php">Não possui conta? <b>Crie uma aqui</b></a></div>
             </div>
         </div>
     </header>

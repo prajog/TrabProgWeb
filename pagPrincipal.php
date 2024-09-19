@@ -22,20 +22,20 @@
     <!-- Barra de navegação -->
     <div class="nav">
       <!-- Logo +SUS -->
-      <div id="logo"><a href="pagPrincipal.html">+SUS</a></div>
+      <div id="logo"><a href="pagPrincipal.php">+SUS</a></div>
       <!-- Lista de links de navegação -->
       <ul class="navlist">
         <li class="nav-item">
-          <a class="nav-link active" href="pagPrincipal.html">Página Principal</a>
+          <a class="nav-link active" href="pagPrincipal.php">Página Principal</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="meusAgendamentos.html">Meus Agendamentos</a>
+          <a class="nav-link active" href="meusAgendamentos.php">Meus Agendamentos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="perfil.html">Perfil</a>
+          <a class="nav-link active" href="perfil.php">Perfil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="index.html">Sair</a>
+          <a class="nav-link active" href="index.php">Sair</a>
         </li>
       </ul>
     </div>
@@ -48,19 +48,19 @@
       <!-- Primeira coluna de links -->
       <div>
         <!-- Link para agenda de consulta -->
-        <a href="agendaConsulta.html" class="direcionamento">
+        <a href="agendaConsulta.php" class="direcionamento">
           <i class='bx bx-calendar-event'></i>
           <p>Agendar Consultas</p>
         </a>
 
         <!-- Link para agenda de exame -->
-        <a href="agendaExame.html" class="direcionamento">
+        <a href="agendaExame.php" class="direcionamento">
           <i class='bx bx-calendar-event'></i>
           <p>Agendar Exames</p>
         </a>
 
         <!-- Link para meus agendamentos -->
-        <a href="meusAgendamentos.html" class="direcionamento">
+        <a href="meusAgendamentos.php" class="direcionamento">
           <i class='bx bx-calendar-check'></i>
           <p>Meus Agendamentos</p>
         </a>
@@ -69,13 +69,13 @@
       <!-- Segunda coluna de links -->
       <div>
         <!-- Link para vacinas -->
-        <a href="vacinas.html" class="direcionamento">
+        <a href="vacinas.php" class="direcionamento">
           <i class='bx bx-injection'></i>
           <p>Vacinas</p>
         </a>
 
         <!-- Link para unidades de saúde -->
-        <a href="ubs.html" class="direcionamento">
+        <a href="ubs.php" class="direcionamento">
           <i class="fa-regular fa-hospital"></i>
           <p>Unidades de Saúde</p>
         </a>
