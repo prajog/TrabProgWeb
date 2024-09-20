@@ -34,7 +34,7 @@
                     <a class="nav-link active" href="meusAgendamentos.php">Meus Agendamentos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.php">Sair da Conta</a>
+                    <a class="nav-link active" href="index.php">Sair</a>
                 </li>
             </ul>
         </div>
