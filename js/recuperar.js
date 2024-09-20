@@ -10,7 +10,7 @@ function recuperar() {
     inEmail.focus();
   } else {
     // Redireciona para a página de mensagem de recuperação de e-mail se o campo de e-mail estiver preenchido
-    window.location.href = "msgRcpEmail.html";
+    window.location.href = "msgRcpEmail.php";
   }
 }
 

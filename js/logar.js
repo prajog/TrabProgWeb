@@ -22,7 +22,7 @@ function entrar() {
             alert("Usuário ou Senha foram digitados errado!")
         } else {
             // Redireciona para a página principal se os dados de login estiverem corretos
-            window.location.href = "pagPrincipal.html";
+            window.location.href = "pagPrincipal.php";
         }
     }
 }

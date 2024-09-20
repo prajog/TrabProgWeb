@@ -42,7 +42,7 @@ function cadastrar() { // Função para cadastro
     inCfmPssw.focus();
   } else {
     // Redireciona para a página principal se todas as verificações estiverem passando
-    window.location.href = "pagPrincipal.html";
+    window.location.href = "pagPrincipal.php";
   }
 }
 
