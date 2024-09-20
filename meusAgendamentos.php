@@ -84,6 +84,7 @@
         
                     <p><b>Nome do paciente:</b> Fulano da Silva Santos</p>
                     <p><b>Data da consulta:</b> dd/mm/yyyy</p>
+                    <p></p>
                 </div>
                 
                 <div class="btn">
@@ -100,12 +101,14 @@
         <form class="modal-content">
             <div class="container">
                 <h1>Cancelar Consulta</h1>
-                <p>Tem certeza que você deseja cancelar a sua consulta?</p>
+                <p>Tem certeza que você deseja cancelar a sua consulta com o [especialista]?</p>
+                <p><b>Data da consulta:</b> dd/mm/yyyy</p>
+                <p><b>Nome do médico:</b> Fulano</p>
                 
                 <div class="centralizar">
                     <div class="clearfix">
-                        <button type="button" onclick="some(0)" class="cancelbtn">Sim</button>
                         <button type="button" onclick="some(1)" class="deletebtn">Não</button>
+                        <button type="button" onclick="some(0)" class="cancelbtn">Sim</button>
                     </div>
                 </div>
             </div>
