@@ -29,9 +29,6 @@
           <a class="nav-link active" href="pagPrincipal.php">Página Principal</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="meusAgendamentos.php">Meus Agendamentos</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link active" href="perfil.php">Perfil</a>
         </li>
         <li class="nav-item">
