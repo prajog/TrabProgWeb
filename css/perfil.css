@@ -1,22 +1,17 @@
 /* Define o espaçamento superior do container */
 .container {
     margin-top: 4em;
-    display: flex;
+    display: flex; 
     justify-content: space-evenly;
     /* Alinha os itens igualmente no espaço disponível */
     align-items: center;
     /* Alinha os itens verticalmente */
 }
 
-/* Estilo para o lado esquerdo do container */
-#nav-l {
-    text-align: center;
-    /* Alinha o texto ao centro */
-}
 
 /* Estilo para o lado direito do container */
 #nav-r {
-    width: 40em;
+    width: 60em;
     /* Largura fixa */
     text-align: left;
     /* Alinha o texto à esquerda */
@@ -56,6 +51,10 @@
 .data {
     padding: 1em;
     /* Preenchimento */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3.2em;
+    margin-right: 3.2em;
 }
 
 /* Estilo para o texto principal */
@@ -98,12 +97,34 @@
     /* Cursor */
 }
 
+.red-button {
+    margin-top: 1em;
+    /* Margem superior */
+    background-color: #bd2525;
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    border: none;
+    /* Sem borda */
+    padding: 0.8em;
+    /* Preenchimento */
+    border-radius: 11px;
+    /* Borda arredondada */
+    font-size: 1.3em;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Cursor */
+}
+
 /* Estilo de hover para o botão verde */
 .green-button:hover {
     background-color: #0e493fe4;
     /* Cor de fundo quando hover */
 }
 
+.red-button:hover {
+    background-color: #a32323;
+}
 #nav-button {
     display: flex;
     justify-content: center;
@@ -151,3 +172,4 @@ i {
     max-width: 50vw;
     /* Largura máxima */
 }
+

@@ -33,19 +33,15 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="meusAgendamentos.php">Meus Agendamentos</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.php">Sair da Conta</a>
+                </li>
             </ul>
         </div>
     </header>
 
     <!-- Container principal -->
     <div class="container">
-        <!-- Lado esquerdo do container -->
-        <div id="nav-l">
-            <!-- Ícone de usuário -->
-            <i class="fa-solid fa-user"></i>
-            <!-- Nome do usuário -->
-            <h1 id="nameUser">Fulano da Silva Santos</h1>
-        </div>
 
         <!-- Lado direito do container -->
         <div id="nav-r">
@@ -56,20 +52,25 @@
 
                 <!-- Dados pessoais -->
                 <div class="data">
-                    <h3 id="nav-subtitles">CPF</h3>
-                    <p id="nav-txt">160.616.570-48</p>
-                    <h3 id="nav-subtitles">Cartão Nacional de Saúde</h3>
-                    <p id="nav-txt">754.891.263.781</p>
-                    <h3 id="nav-subtitles">Data de Nascimento</h3>
-                    <p id="nav-txt">19/07/1987</p>
+                    <div class="data-left">
+                        <h3 id="nav-subtitles">Nome Completo</h3>
+                        <p id="nav-txt">Francisco Veiga</p>
+                        <h3 id="nav-subtitles">CPF</h3>
+                        <p id="nav-txt">160.616.570-48</p>
+                        <h3 id="nav-subtitles">Cartão Nacional de Saúde</h3>
+                        <p id="nav-txt">754.891.263.781</p>
+                    </div>
+                    <div class="data-right">
+                        <h3 id="nav-subtitles">E-mail</h3>
+                        <p id="nav-txt">eutentei@fuimlk.com.br</p>
+                        <h3 id="nav-subtitles">Telefone</h3>
+                        <p id="nav-txt">(XX) XXXXX-XXXX</p>
+                        <div id="nav-button">
+                            <button type="submit" class="green-button" id="altDados">Alterar dados</button>
+                        </div>
+                    </div>
+                    
                 </div>
-            </div>
-
-            <!-- Botão para trocar de conta -->
-            <div id="nav-button">
-                <a href="index.php">
-                    <button type="submit" class="green-button">Trocar de conta</button>
-                </a>
             </div>
         </div>
     </div>
