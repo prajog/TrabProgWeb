@@ -5,12 +5,10 @@ let year = date.getFullYear();
 let month = date.getMonth();
 
 const day = document.querySelector(".calendar-dates");
-
 const currdate = document.querySelector(".calendar-current-date");
-
 const prenexIcons = document.querySelectorAll(".calendar-navigation span");
 
-// Array of month names
+// Lista com os nomes dos meses
 const months = [
 	"Janeiro",
 	"Fevereiro",
@@ -26,7 +24,7 @@ const months = [
 	"Dezembro"
 ];
 
-// Function to generate the calendar
+// Funcao que cria o calendario
 const manipulate = () => {
 
 	// Get the first day of the month
