@@ -80,7 +80,7 @@
     </div>
     <!-- Rodapé da página -->
     <footer>
-      <p>Todos os direitos reservados ©</p>
+      <p>Todos os direitos reservados &copy</p>
     </footer>
   </div>
 
