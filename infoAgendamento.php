@@ -80,8 +80,8 @@
                 
                 <div class="centralizar">
                     <div class="clearfix">
-                        <button type="button" onclick="some(0)" class="cancelbtn">Sim</button>
                         <button type="button" onclick="some(1)" class="deletebtn">Não</button>
+                        <button type="button" onclick="some(0)" class="cancelbtn">Sim</button>
                     </div>
                 </div>
             </div>
