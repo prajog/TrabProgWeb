@@ -34,7 +34,7 @@
     <section>
 
         <!--Seta para volta-->
-        <i class='bx bx-arrow-back' id="setaagd" onclick="Principal()"></i>
+        <i class='bx bx-arrow-back' id="setaagd" onclick="Principal()"><p>Meus agendamentos</p></i>
 
         <h1>CONSULTE OU CANCELE SEUS AGENDAMENTOS</h1>
         <div class="lista">

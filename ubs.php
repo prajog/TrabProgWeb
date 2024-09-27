@@ -36,7 +36,7 @@
     </header>
 
     <section>
-        <i class='bx bx-arrow-back' id="setaUbs" onclick="Principal()"></i>
+        <i class='bx bx-arrow-back' id="setaUbs" onclick="Principal()"><p>Unidades básicas de saúde</p></i>
         <!-- Lista de UBS -->
         <div class="unidades">
             <div class="UBS">

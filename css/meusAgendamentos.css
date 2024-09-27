@@ -84,3 +84,10 @@ i:hover{
     justify-content: center;
     align-items: center;
 }
+
+#setaagd p{
+    position: relative;
+    left: 2em;
+    bottom: 1em;
+    color: black;
+}

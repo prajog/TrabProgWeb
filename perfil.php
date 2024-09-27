@@ -45,6 +45,7 @@
 
         <!-- Lado direito do container -->
         <div id="nav-r">
+            <h1 id="h10">Perfil</h1>
             <!-- Conteúdo do perfil -->
             <div class="content">
                 <!-- Título "Dados Pessoais" -->

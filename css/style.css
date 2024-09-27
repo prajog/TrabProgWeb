@@ -10,9 +10,24 @@ i{
 #seta, #setaUbs{
     align-self: baseline;
     margin-top: 1.5em;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-right: 1em;
     color: rgba(0, 0, 0, 0.624);
+    border-right: 20px;
+}
+
+#seta p{
+    position: relative;
+    left: 2em;
+    bottom: 1em;
+    color: black;
+}
+
+#setaUbs p{
+    position: relative;
+    left: 2.5em;
+    bottom: 1em;
+    color: black;
 }
 
 #seta:hover, #setaUbs:hover{

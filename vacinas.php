@@ -36,7 +36,7 @@
     <section>
         <div>
             <!-- Botão com evento para voltar a pagina principal -->
-            <i class='bx bx-arrow-back' id="seta" onclick="Principal()"></i>
+            <i class='bx bx-arrow-back' id="seta" onclick="Principal()"><p>Vacinas</p></i>
             <!-- Lista de Vacinas com nome das doenças que tratam -->
             <div class="unidades">
                 <div class="vacina">
