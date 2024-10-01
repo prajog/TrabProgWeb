@@ -43,3 +43,7 @@ h1{
     color: aliceblue;
 }
 
+.o1{
+    position: relative;
+    left: 11em;
+}
