@@ -1,24 +1,24 @@
 // Obtenção dos elementos do formulário de login e do botão de entrar
 var inNome = document.getElementById("inID");
-var inSobrenome = document.getElementById("inSenha");
+var inSenha = document.getElementById("inSenha");
 var btEntrar = document.getElementById("btEntrar");
 
 // Função para realizar o login
 function entrar() {
     // Obtenção dos valores dos campos de login
     var id = inNome.value;
-    var senha = inSobrenome.value;
+    var senha = inSenha.value;
 
     // Verificações de preenchimento dos campos
     if (inNome.value == "") {
         alert("O campo 'CPF ou Cartão do SUS' não foi preenchido!");
         inNome.focus();
-    } else if (inSobrenome.value == "") {
+    } else if (inSenha.value == "") {
         alert("O campo 'Senha' não foi preenchido!");
-        inSobrenome.focus();
+        inSenha.focus();
     } else {
         // Verificação de usuário e senha
-        if (inNome.value != "chicoin" || inSobrenome.value != "eutentei") {
+        if (inNome.value != "chicoin" || inSenha.value != "eutentei") {
             alert("Usuário ou Senha foram digitados errado!")
         } else {
             // Redireciona para a página principal se os dados de login estiverem corretos
