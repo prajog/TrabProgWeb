@@ -32,3 +32,7 @@ select {
     max-width: 60vw;
 }
 
+h1{
+    position: relative;
+    left: 16em;
+}
