@@ -24,13 +24,13 @@ h1{
 }
 /* Configura especialidade(h1) */
 #especialidade{
-    color: #438e82;
+    color: #3C827A;
     font-weight: 1000;
 }
 
 /* Decora o botao voltar */
 .btnVoltar {
-    background-color: #438e82; 
+    background-color: #3C827A; 
     border: none;
     border-radius: 10px;
     color: white;

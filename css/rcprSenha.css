@@ -47,7 +47,7 @@
 
 /* Estilos para botão verde */
 .green-button {
-    background-color: #438e82; /* Cor de fundo do botão */
+    background-color: #3C827A; /* Cor de fundo do botão */
     color: white; /* Cor do texto */
     border: none; /* Remove a borda */
     padding: 10px 20px;
@@ -60,7 +60,7 @@
 
 /* Estilo de hover do botão */
 .green-button:hover {
-    background-color: #3a867a; /* Cor de fundo do botão quando hover */
+    background-color: #3C827A; /* Cor de fundo do botão quando hover */
 }
 
 /* Estilo para inputs redondos */
@@ -108,7 +108,7 @@ a {
 
 /* Estilos de hover para links */
 a:hover {
-    color: #438e82; /* Cor dos links quando hover */
+    color: #3C827A; /* Cor dos links quando hover */
 }
 
 /* Media query para telas menores que 783px */
@@ -117,7 +117,7 @@ a:hover {
         display: grid;
         grid-template-areas: 'a a';
         grid-template-columns: 1fr;
-        background-color: #438e82; /* Cor de fundo do container */
+        background-color: #3C827A; /* Cor de fundo do container */
     }
 
     #nav-bcg {

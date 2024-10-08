@@ -26,21 +26,21 @@ button:hover{
 /* Decora o botao de cancelar */
 .cancelbtn {
   margin-left: 1em;
-  background-color: #438e82;
+  background-color: #3C827A;
   color: rgb(255, 247, 247);
   width: 15vw;
 }
 
 /* Decora o botao de "desistir"(voltar) */
 .deletebtn {
-  background-color: #438e82;
+  background-color: #3C827A;
   color: white;
   width: 15vw;
 }
 
 /* Decora o botao ok */
 .ok{
-  background-color: #438e82;
+  background-color: #3C827A;
   color: white;
   border: none;
   border-radius: 10px;

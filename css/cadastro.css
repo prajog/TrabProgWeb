@@ -126,7 +126,7 @@ p {
 #btnCadastrar {
     width: 9.8em;
     /* Define a largura */
-    background-color: #438e82;
+    background-color: #3C827A;
     /* Cor de fundo */
     margin-right: 1.5em;
     /* Define a margem direita */
@@ -138,7 +138,7 @@ p {
 #btnCadastrar:hover {
     cursor: pointer;
     /* Altera o cursor para um ponteiro */
-    background: #3d796f;
+    background: #3C827A;
     /* Altera a cor de fundo quando hover */
 }
 
@@ -152,7 +152,7 @@ a:hover {
 a {
     font-weight: 500;
     /* Define o peso da fonte */
-    color: #438e82;
+    color: #3C827A;
     /* Cor do texto */
 }
 
