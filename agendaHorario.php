@@ -34,9 +34,8 @@
             
         </div>
     </header>
-    <h1>Agendamento de consulta</h1>
     <section>
-        
+        <h1>Agendamento de consulta</h1>
         <div class="conteudo">
             <div class="agendamento">
                 <!-- calendario -->
@@ -96,7 +95,7 @@
             <!-- botoes de voltar e prosseguir -->
             <div class="botoes">
                 <button class="btnfinais" name="btnvoltar" onclick="history.back()">Voltar</button>
-                <button class="btnfinais" name="btnprosseguir"><a href="fimAgendamento.php">Finalizar agendamento</a></button>
+                <a href="fimAgendamento.php" class="btnfinais" name="btnprosseguir">Finalizar agendamento</a>
             </div>
         </div>
         

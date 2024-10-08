@@ -65,7 +65,12 @@
     color: white;
     border: none;
     border-radius: 10px;
+<<<<<<< Updated upstream
     background-color: #3C827A;
+=======
+    background-color: #438e82;
+    cursor: pointer;
+>>>>>>> Stashed changes
 }
 
 .btnfinais a{

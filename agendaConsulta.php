@@ -30,8 +30,8 @@
 
         </div>
     </header>
-    <h1>Agendamento de consulta</h1>
     <section>
+        <h1>Agendamento de consulta</h1>
         <div class="conteudo">    
             
             <!-- lista de unidades -->
@@ -80,7 +80,7 @@
             <!-- botoes para prosseguir e voltar  -->
             <div class="botoes">
                 <button class="btnfinais" id="btnvoltar" onclick="history.back()">Voltar</button>
-                <button class="btnfinais" id="btncontinuar"><a href="agendaHorario.php">Continuar</a></button>
+                <a href="agendaHorario.php" class="btnfinais" id="btncontinuar">Continuar</a>
             </div>
         </div>
     </section>
