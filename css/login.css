@@ -38,7 +38,7 @@ body {
 #nav-bcg {
     grid-area: "e";
     /* Define a área do grid */
-    background-color: #438e82;
+    background-color: #3C827A;
     /* Cor de fundo */
 }
 
@@ -94,7 +94,7 @@ body {
 
 /* Estilos para o botão verde */
 .green-button {
-    background-color: #438e82;
+    background-color: #3C827A;
     /* Cor de fundo do botão */
     color: white;
     /* Cor do texto */
@@ -164,7 +164,7 @@ body {
     /* Define o tamanho da fonte */
     font-weight: bolder;
     /* Define o peso da fonte */
-    color: #438e82;
+    color: #3C827A;
     /* Cor do texto */
     margin-bottom: 0.2em;
     /* Define a margem inferior */
@@ -192,7 +192,7 @@ a {
 
 /* Estilos de hover para links */
 a:hover {
-    color: #438e82;
+    color: #3C827A;
     /* Cor dos links quando hover */
 }
 
@@ -205,7 +205,7 @@ a:hover {
         /* Define as áreas do grid */
         grid-template-columns: 1fr;
         /* Define as colunas do grid */
-        background-color: #438e82;
+        background-color: #3C827A;
         /* Cor de fundo */
     }
 

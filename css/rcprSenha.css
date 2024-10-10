@@ -22,7 +22,7 @@
 /* Estilo do fundo do lado esquerdo */
 #nav-bcg {
     grid-area: "e";
-    background-color: #438e82; /* Cor de fundo */
+    background-color: #3C827A; /* Cor de fundo */
 }
 
 /* Estilo do texto e elementos no lado direito */
@@ -41,7 +41,7 @@
 #logo {
     font-size: 7rem;
     font-weight: bolder;
-    color: #438e82; /* Cor do texto */
+    color: #3C827A; /* Cor do texto */
     margin-bottom: 0.2em;
 }
 
