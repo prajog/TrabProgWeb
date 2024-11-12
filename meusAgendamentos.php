@@ -13,26 +13,10 @@
     <script src="js/btnAcoes.js" defer></script>
 </head>
 <body>
-    <header>
-
-        <!--Menu-->
-        <div class="nav">
-            <div id="logo"><a href="pagPrincipal.php">+SUS</a></div>
-            <ul class="navlist">
-                <li class="nav-item">
-                    <a class="nav-link active" href="pagPrincipal.php">Página Principal</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="perfil.php">Perfil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.php">Sair</a>
-                </li>
-            </ul>
-        </div>
-    </header>
+    <?php
+        include 'header.php';
+    ?>
     <section>
-
         <!--Seta para volta-->
         <i class='bx bx-arrow-back' id="setaagd" onclick="Principal()"><p>Meus agendamentos</p></i>
 
